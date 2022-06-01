@@ -1,0 +1,113 @@
+[
+    {
+        "soal0": {
+            "soal": "Perhatikan gambar di bawah ini! <br><img src='../img/kuis1.1.PNG'> <br> Gunakan perbandingan Trigonometri untuk menentukan nilai y. Nilai y adalah .  .  .  .",
+            "a": "105,6",
+            "b": "11,11",
+            "c": "17,32",
+            "d": "38,8",
+            "e": "35,8",
+            "benar": "c"
+        }
+    },
+    {
+        "soal1": {
+            "soal": "Perhatikan gambar dan pertanyaan berikut! <br><img src='../img/kuis1.2.PNG'><br> Pada gambar di atas 𝑇𝑀 ⊥ 𝐴𝐵, Panjang 𝑀𝐵 = 5 𝑐𝑚, 𝐴𝑇 = 13 𝑐𝑚 dan besar ∠𝐶𝐵𝑇 = 135°. Panjang TM dan AM secara berurutan adalah . . . . ",
+            "a": "7 cm dan 8 cm",
+            "b": "6 cm dan 5 cm",
+            "c": "12 cm dan 8 cm",
+            "d": "5 cm dan 12 cm",
+            "e": "5 cm dan 10 cm",
+
+            "benar": "d"
+        }
+    },
+    {
+        "soal2": {
+            "soal": "Perhatikan gambar berikut!<br><img src='../img/kuis1.3.PNG'>",
+            "a": "50 meter",
+            "b": "60 meter",
+            "c": "70 meter",
+            "d": "30 meter",
+            "e": "20 meter",
+            "benar": "a"
+        }
+    },
+    {
+        "soal3": {
+            "soal": "Pada gambar disampig. Titik L, M dan N adalah tiga titik pada sebidang tanah datar. Tiang bendera yag tegak berdiri di M. Diketahui LM = 70 m dan MN = 100 m.<br><img src='../img/kuis1.4.PNG'><br>Jika pada sudut elevasi puncak tiang P dari L adalah 26°. Tinggi tiang bendera Adalah . . . . ",
+            "a": "33",
+            "b": "20",
+            "c": "23,56",
+            "d": "34",
+            "e": "34,14",
+            "benar": "e"
+        }
+    },
+    {
+        "soal4": {
+            "soal": "<img src='../img/kuis1.5.PNG'><br>Pada gambar di atas Panjang 𝐴𝐵=𝐴𝐷 , ∠𝐵𝐴𝐶=64°, dan Panjang BC=5,3 𝑐𝑚 ,Panjang 𝐴𝐵 dan 𝐴𝐶 secara berturut-urut adalah . . . .",
+            "a": "15 dan 12",
+            "b": "10,02 dan 8,50",
+            "c": "15 dan 8",
+            "d": "10 dan 15",
+            "e": "15 dan 15",
+            "benar": "b"
+        }
+    },
+    {
+        "soal5": {
+            "soal": "Diketahui segitiga 𝐴𝐵𝐶 siku-siku di B. jika cos⁡ 𝐴=10/26, maka sin⁡ 𝐴=. ...",
+            "a": "20/26",
+            "b": "23/26",
+            "c": "22/26",
+            "d": "24/26",
+            "e": "25/26",
+            "benar": "d"
+        }
+    },
+    {
+        "soal6": {
+            "soal": "Diketahui segitiga 𝐴𝐵𝐶 siku-siku  di B. Nilai cos⁡ 𝐴=3/4 , nilai cot A adalah  ....",
+            "a": "$$\\frac{3}{7}$$ ",
+            "b": "$$\\frac{3}{7}\\sqrt{7}$$",
+            "c": "$$\\sqrt{7}$$",
+            "d": "$$\\frac{3}{4}\\sqrt{7}$$",
+            "e": "$$\\frac{2}{4}\\sqrt{7}$$",
+            "benar": "b"
+        }
+    },
+    {
+        "soal7": {
+            "soal": "<img src='../img/kuis1.6.PNG'>",
+            "a": "7",
+            "b": "$$\\frac{7}{6}$$",
+            "c": "9",
+            "d": "$$\\frac{3}{4}\\sqrt{6}$$",
+            "e": "$$\\frac{2}{4}\\sqrt{6}$$",
+            "benar": "c"
+        }
+    },
+    {
+        "soal8": {
+            "soal": "Sebuah tangga disandarkan pada dinding, jika jarak ujung tangga bagian atas ke lantai adalah 2 meter , dan ujung tangga bawah dengan lantai adalah 30°, maka panjang tangga adalah ....",
+            "a": "5",
+            "b": "4",
+            "c": "3",
+            "d": "$$3 \\sqrt{6}$$",
+            "e": "$$3 \\sqrt{3}$$",
+            "benar": "b"
+        }
+    },
+    {
+        "soal9": {
+            "soal": "perhatikan gambar jam di bawah ini <br><img src='../img/kuis1.7.PNG'><br>Jarak jarum pendek dari jarum panjang sebuah jam dinding adalah 10 cm . Ketika jarum jam menunjukkan pukul 02.00, jarak ujung jarum pendek ke garis horizontal yang melalui titik pusat jam dinding adalah  ....",
+            "a": "\\[5 \\sqrt{7}\\]",
+            "b": "\\[7\\sqrt{5}\\]",
+            "c": "6",
+            "d": "4",
+            "e": "5",
+            "benar": "e"
+        }
+    }
+]

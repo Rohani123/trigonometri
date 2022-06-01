@@ -1,0 +1,112 @@
+[
+    {
+        "soal0": {
+            "soal": "Perhatikan gambar berikut ini <br><img src='../img/soal grafik1.PNG'><br>  . . . .",
+            "a": "\\(y \\space = \\space 2 \\space sin \\space 2x\\)",
+            "b": "\\(y \\space = \\space 2 \\space sin \\space (2x+30^\\circ) \\)",
+            "c": "\\(y \\space = \\space 2 \\space cos \\space (x+30^\\circ) \\)",
+            "d": "\\(y \\space =  \\space cos \\space (2x+30^\\circ) \\)",
+            "e": "\\(y \\space =  \\space sin \\space (x+60^\\circ) \\)",
+            "benar": "a"
+        }
+    },
+    {
+        "soal1": {
+            "soal": "Perhatikan gambar berikut ini <br><img src='../img/soal grafik1.PNG'><br> fungsi persamaan diatas adalah . . . . ",
+            "a": "$$y \\space = \\space 2 \\space sin \\space 2x$$",
+            "b": "$$y \\space = \\space -2 \\space sin \\space 2(x+30^\\circ)$$",
+            "c": "$$y \\space = \\space 2 \\space cos \\space (2x+30^\\circ)$$",
+            "d": "$$y \\space =  \\space cos \\space (2x+30^\\circ)$$",
+            "e": "$$y \\space = \\space -2 \\space sin \\space (x+30^\\circ)$$",
+            "benar": "b"
+        }
+    },
+    {
+        "soal2": {
+            "soal": "<img src='../img/soal grafik.PNG'>",
+            "a": "$$180^\\circ$$",
+            "b": "$$90^\\circ$$",
+            "c": "$$60^\\circ$$",
+            "d": "$$45^\\circ$$",
+            "e": "$$30^\\circ$$",
+            "benar": "b"
+        }
+    },
+    {
+        "soal3": {
+            "soal": "<img src='../img/soal grafik5.PNG'>",
+            "a": "$$180^\\circ$$",
+            "b": "$$90^\\circ$$",
+            "c": "$$60^\\circ$$",
+            "d": "$$120^\\circ$$",
+            "e": "$$45^\\circ$$",
+            "benar": "d"
+        }
+    },
+    {
+        "soal4": {
+            "soal": "<img src='../img/soal grafik6.PNG'>",
+            "a": "$$180^\\circ  ,  3$$",
+            "b": "$$90^\\circ  ,  3$$",
+            "c": "$$120^\\circ  ,  3$$",
+            "d": "$$80^\\circ  ,  3$$",
+            "e": "$$75^\\circ  ,  3$$",
+            "benar": "e"
+        }
+    },
+    {
+        "soal5": {
+            "soal": "Perhatikan gambar di bawah ini! <br> <img src='../img/soal grafik3.PNG'><br>Persamaan fungsi dari grafik di atas adalah . . . .",
+            "a": "$$y \\space  = \\space  -tan \\space x$$",
+            "b": "$$y \\space  = \\space  -tan \\space 2x$$",
+            "c": "$$y \\space  = \\space  tan \\space 3x$$",
+            "d": "$$y \\space  = \\space  tan \\space 2x$$",
+            "e": "$$y \\space  = \\space  tan \\space x$$",
+            "benar": "d"
+        }
+    },
+    {
+        "soal6": {
+            "soal": "<img src='../img/soal grafik7.PNG'>",
+            "a": "$$ 180^\\circ  ,  3 $$",
+            "b": "$$ 90^\\circ  ,  3 $$",
+            "c": "$$ 120^\\circ  ,  3 $$",
+            "d": "$$ 80^\\circ  ,  3 $$",
+            "e": "$$ 75^\\circ  ,  3$$",
+            "benar": "a"
+        }
+    },
+    {
+        "soal7": {
+            "soal": "<img src='../img/soal grafik8.PNG'>",
+            "a": "\\(-3\\)  dan   \\(3\\)",
+            "b": "\\(-3\\)  dan   \\(2\\)",
+            "c": "\\(-5\\)  dan   \\(3\\)",
+            "d": "\\(-8\\)  dan   \\(-2\\)",
+            "e": "\\(-5\\)  dan   \\(-2\\)",
+            "benar": "d"
+        }
+    },
+    {
+        "soal8": {
+            "soal": "Perhatikan gambar di bawah ini! <br><img src='../img/soal grafik4.PNG'><br> pergeseran vertical dari gambar di atas adalah . . . .",
+            "a": "1",
+            "b": "2",
+            "c": "3",
+            "d": "4",
+            "e": "5",
+            "benar": "c"
+        }
+    },
+    {
+        "soal9": {
+            "soal": "Manakah pernyataan yang benar dari bentuk umum, kecuali. . . .",
+            "a": "\\(y \\space  = \\space  -3 \\space  cos  \\space 2x\\) mempunyai periode \\(180^\\circ\\)",
+            "b": "Dalam bentuk umum \\(y \\space  = \\space  a  \\space cos \\space  b  \\space (x  \\space \\pm  \\space c)\\pm \\space d \\space \\) a mempengaruhi besarnya Amplitudo.",
+            "c": "periode mempengaruhi besarnya sudut gelombang yang paling besar.",
+            "d": "Grafik \\(y \\space  =  \\space cos \\space  x\\) dapat diperoleh dengan menggser grafik \\(y \\space  =  \\space sin  \\space x\\) ke kiri searah jarum jam sejauh \\(90^\\circ\\)",
+            "e": "Dalam bentu umum c dan d mempengaruhi pergeseran ke atas ke bawah dan ke samping. ",
+            "benar": "c"
+        }
+    }
+]

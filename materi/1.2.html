@@ -1,0 +1,741 @@
+<html>
+<head>
+<title>1.2</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="home.css" rel="stylesheet" type="text/css" media="screen" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+<style>
+div#demo.collapse.show {
+    background-color: whitesmoke;
+}
+
+  button .butt {
+  width: 50;
+  height: 30;
+  font-size: 13;
+  border: solid;
+}
+
+
+
+button .butt2 {
+width: 50;
+height: 30;
+font-size: 13;
+border: solid;
+}
+
+.textinput {
+  width: 230;
+  margin-left: 10;
+  margin-right: 10;
+  height: 30;
+  border: solid;
+  font-size: 20;
+  color: #43d995;
+}
+.textinput2 {
+  width: 230;
+  margin-left: 10;
+  margin-right: 10;
+  height: 30;
+  border: solid;
+  font-size: 20;
+  color: #43d995;
+}
+
+.main {
+  position: absolute;
+  border: solid;
+  border-radius: 2;
+  background: rgb(24, 172, 49);
+}
+</style>
+</head>
+
+<body>
+
+  <header> 
+    <div class="headermenu">
+      <center>&nbsp;&nbsp;&nbsp;&nbsp;T R I G O N O M E T R I I </center>
+      </div>
+
+     </header>
+  
+     <section>
+     <center> <a  href="../index.html" >Halaman Utama</a></center>
+      <nav>
+        <div class="list">Daftar Materi</div>
+        <div class="button-nav">
+          <button class="dropbtn dropdown-btn" button onclick="location.href='0.pengenalan.html'">MENGENAL TRIGONOMETRI</button>
+        
+          <button class="dropbutton dropdown-btn aktif" onclick="ftampil()">1. PERBANDINGAN TRIGONOMETRI
+            <i class="fa fa-caret-down"></i>
+          </button>
+    
+          <div class="dropdown-content dropdown-containerr">
+            <a href="1.1.html" class="hvr">MATERI</a>
+            <a href="1.kuis1.html">Kuis</a>
+          </div>
+    
+      
+          
+           <button class="dropbtn dropdown-btn" onclick="ftampil()">2. PERBANDINGAN TRIGONOMETRI SUDUT BERELASI
+              <i class="fa fa-caret-down"></i>
+          </button>
+    
+           <div class="dropdown-content dropdown-container">
+             <a href="2.1.html">MATERI</a>
+             <a href="2.kuis2.html">Kuis</a>
+             
+            </div>
+          
+     
+        
+            <button class="dropbtn dropdown-btn" onclick="ftampil()">3.  GRAFIK FUNGSI SINUS, KOSINUS, dan TANGEN
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content dropdown-container">
+              <a href="3.1.html">MATERI</a>
+              <a href="3.kuis3.html">Kuis</a>
+            </div>
+  
+    
+          <button class="button" button onclick="location.href='evaluasi.html'">Evaluasi</button>
+        </div>
+      </nav>
+  
+  
+<div class="Isi-Kiri1">
+  <div class="subsection">
+     A. PERBANDINGAN TRIGONOMETRI
+    </div>
+
+   <!-- Nav tabs -->
+   <ul class="nav nav-tabs" role="tablist">
+    <li class="nav-item">
+      <a class="nav-link active" data-toggle="tab" href="#sinus">SINUS</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" data-toggle="tab" href="#cosinus">COSINUS</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" data-toggle="tab" href="#tangen">TANGEN</a>
+    </li>
+  </ul>
+
+  <div class="konten4">
+  <div class="container">
+    
+       
+        
+          <!-- Tab panes -->
+          <div class="tab-content">
+    <!-- ================================================================================================================================== -->
+    
+    
+    <!-- ====================================================SINUS============================================================= -->
+    <div id="sinus" class="container tab-pane active"><br>
+      <div class="container">
+      <h2> <b> A. SINUS</b></h2> <br><br><br>
+      <h4><strong>Mari mengamati</strong></h4>
+      <h5>Berikut beberapa contoh dari perbandingan trigonometri</h5>
+    
+      <div id="accordion">
+
+          <!-- CARI SIN ALPHA SINUS -->
+          <div class="card">
+          <div class="card-header">
+            <a class="card-link" data-toggle="collapse" href="#collapseOne">
+             <font size="5%"><b>a. Mendapatkan sin &alpha;</b></font>
+            </a>
+          </div>
+          <div id="collapseOne" class="collapse" data-parent="#accordion">
+          <div class="card-body">
+          <div class="tab-content"> 
+          <div id="home" class="container tab-pane active"> 
+            <h5>Perhatikan <b>Gambar 1.2</b> berikut.</h5>
+           
+              
+              <center>
+              <img src="../img/segitiga5.PNG"  width="400" height="300"> <p> <b> Gambar 1.2</b></p></center> <br>
+              <div class="mengamati1">
+                <p>Diketahui panjang <b><i>AB = 12 cm, BC = 9 cm, </i></b>dan <b><i>AC = 15 cm</i></b>. 
+                  Berapakah <i><b>sin &alpha;</b></i> ? </p> 
+                 <div class="container">
+                  <center><button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#sin1">Penyelesaian</button></center> 
+                   <div id="sin1" class="collapse">
+                  <div id="penyelesaian" class="penyelesaian">
+                    <h5><b>Diketahui:</b></h5>
+                    <h6>Panjang <b><i>AB = 12 cm </i></b>, <b><i>BC = 9 cm </i></b>, dan <b><i>AC = 15 cm</i></b>   </h6> <br>
+                    <h5><b>Ditanya:</b></h5>
+                    <h6><b>Berapakah sin &alpha;</b> ?</h6> <br>
+                    <h5><b>JAWAB:</b></h5>
+                    <h6>Masukan ke dalam rumus</h6>
+                    <h6>$$sin \space &alpha; = \frac{Depan}{Miring} = \frac{AB}{AC}$$ 
+                      $$sin \space &alpha; = \frac{12}{15}$$
+                      $$sin \space &alpha; = 0,8$$ </h6>
+                      
+                    <h5><b>Kesimpulan:</b></h5>
+                       <h6>Untuk mencari <b><i>sin &alpha;</i></b> maka kita menggunakan rumus \(sin \space &alpha; = \frac{Depan}{Miring}\) dari pertanyaan di atas jadi hasil dari <b>sin &alpha;</b> adalah 0,8. </h6>
+
+                   <!-- penyelesainan -->
+                  </div>
+                   <!-- sin -->
+                   </div>
+                   <!-- container -->
+                  </div>
+              <!-- mengamati1 -->
+             </div>
+         <!-- home -->
+          </div>
+       <!-- tab konten -->
+       </div>
+      <!-- card body -->
+      </div>
+    <!--collapsone  -->
+  </div>
+    <!-- card1 -->
+</div>
+    <!-- ====stop CARI SIN ALPHA SINUS=== -->
+
+    <!-- SALAH SATU SISI SINUS -->
+    <div class="card">
+    <div class="card-header">
+      <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+      <font size="5%"><b>b. Mencari Salah Satu Sisi Sin &alpha; </b></font>
+      </a>
+    </div>
+    <div id="collapseTwo" class="collapse" data-parent="#accordion">
+    <h5> Perhatikan <b>Gambar 1.3</b> berikut.</h5>
+    <div class="card-body">
+      <center>
+      <img src="../img/segitiga9.PNG" width="400" height="300"> <br> <p> <b>Gambar 1.3</b></p></center> 
+      <div class="mengamati1">
+        <p>Berdasarkan <b>Gambar 1.3</b>, berapakah nilai <b>h</b>?</p> 
+        <div class="container">
+          <center> <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#sin2">Penyelesaian</button></center>
+          <div id="sin2" class="collapse">
+          <div id="penyelesaian" class="penyelesaian">
+            <h5><b>Diketahui:</b></h5>
+            <h6>Panjang sisi depan<b><i> = 12 cm </i></b>, dan <b>sudut <i>45&deg;</i></b></h6> <br>
+            <h5><b>Ditanya:</b></h5>
+            <h6><b>Sisi <i>h</i>(miring/hipotenusa)?</b></h6>
+            <h5><b>JAWAB:</b></h5>
+            <h6>Rumus yang dipakai jika kita hubungkan yang diketahui dan yang dicari yaitu ada panjang sisi depan dan panjang sisi miring. Berarti memakai rumus <b>SINUS</b> yaitu: 
+              $$sin \space &alpha; = \frac{Depan}{Miring}$$
+            </h6>
+            <h6>Masukan k edalam rumus</h6>
+            <h6>$$sin \space &alpha; = \frac{Depan}{Miring}$$
+              $$sin \space &alpha; = \frac{12}{h}$$
+              $$sin \space 45&deg; = \frac{12}{h}$$
+              $$h = \frac{12}{sin \space 45&deg;}$$
+              Untuk \(sin \space 45&deg;\) hitung dengan menggunakan kalkulator menghasilkan 0,70710678 </h6>
+              $$h = \frac{12}{0,70710678}$$
+              $$h = 16,9705628$$
+              <h6>dibulatkan menjadi <b>16,97</b> atau <b>17</b></h6>
+              <h5><b>Kesimpulan:</b></h5>
+              <h6>Untuk menentukan panjang salah satu sisi seperti pertanyaan di atas yaitu menentukan panjang sisi miring/hipotenusa pada <b> Gambar 1.3</b>, dapat ditentukan berdasarkan hubungan dari yang diketahui dan yang ditanyakan. 
+                Karena yang diketahui panjang sisi depan, dan yang ditanyakan panjang sisi miring, 
+                maka hubungan sisi depan dengan sisi miring ada pada rumus sinus.  yaitu panjang <b><i>Depan = 12 cm </i></b>, dan <b>sudut <i>45&deg;</i></b> dan yang ditanyakan adalah sisi miring h\hipotenusa 
+                maka kita menggunakan rumus \(sin \space &alpha; = \frac{Depan}{Miring}\) dari pertanyaan di atas jadi panjang sisi miring h/hipotenusa adalah adalah 17 cm.</h6>
+
+          
+
+          <!-- penyelesaian -->
+        </div>
+          <!-- sin2 -->
+        </div>
+          <!-- container -->
+        </div>
+        <!-- MENGAMATI -->
+      </div>
+      <!-- card body -->
+          </div>
+      <!-- collapstwo -->
+        </div>
+      <!-- card  -->
+      </div>
+
+    <!-- ===================================STOP CARI SALAH SATU SISI =================-->
+
+
+      
+    <!-- accordian -->
+       </div>
+    <!-- container -->
+     </div>
+    <!--tab sinus -->
+    </div>
+  
+    <!-- ================================================SELESAI TAB SINUS==================================================================== -->
+    
+    
+          
+    
+    <!-- ====================================================COSINUS============================================================= -->
+    <div id="cosinus" class="container tab-pane fade"><br>
+      <h3> <b> B. COSINUS</b></h3>
+       <h5>Sebelumnya kalian sudah mengetahui cara bagaimana mendapatkan sin ⁡α dan mendapatkan salah satu sisi dari sin ⁡α, 
+            Untuk Cosinus sama halnya seperti Sinus. Mari mencoba mengisi!</h5>
+        <h5><b>Mari Mencoba</b></h5>
+            <div id="accordion">
+              
+                  
+              <!-- CARI COSINUS ALPHA -->
+              <div class="card">
+              <div class="card-header">
+              <a class="card-link" data-toggle="collapse" href="#collapseOne2">
+                <font size="5%"><b>a. Mendapatkan cos &beta;</b></font>
+              </a>
+            </div>
+              <div id="collapseOne2" class="collapse" data-parent="#accordion">
+              <div class="card-body">
+              <div class="tab-content"> 
+              <div id="home" class="container tab-pane active">  
+                <div class="mengamati1"> 
+                <center>
+                <img src="../img/segitiga6.PNG"  width="400" height="250"> <br> <p><b>  Gambar 1.4</b></p></center>
+                <h5>Perhatikan <b>Gambar 1.4</b> terdapat Segitiga MNO siku-siku di M dengan sudut &beta;, Berapakah cos &beta;?</h5>
+                <center><h4><b>Penyelesaian</b></h4></center>
+                  <center><p>-------------------------------------------------------------------------------------</p></center>
+                  <center><h4>Diketahui</h4></center>
+                  <center> <p>panjang <b><i>MN =</i></b> <input id="MN" type="text" class="inputkecil"> cm</p></center> <br>
+                 <center> <p>panjang <b><i>NO =</i></b> <input id="NO" type="text" class="inputkecil"> cm</p></center><br>
+                 <center> <p>panjang <b><i>OM =</i></b> <input id="OM" type="text" class="inputkecil"> cm</p></center><br>
+                  <br>
+                  
+                  <center><p>-------------------------------------------------------------------------------------</p></center>
+                  <center><h4>Ditanyakan</h4></center>
+                  <center><p>Berapakah <b><i>cos &beta; ?</i></b></p></center>
+                  <br>
+                  
+                 <center> <p>-------------------------------------------------------------------------------------</p></center>
+                 
+                   <!-- <form action=""> -->
+                    <center> <fieldset>
+                      <!-- <input type="radio" name="rd" id="rdcontoh1"> -->
+                      <label for="rdcontoh1"> $$A. \space cos \space &beta; = \frac{Depan}{Miring}$$</label><br>
+                      <!-- <input type="radio" name="rd" id="rdcontoh2"> -->
+                      <label for="rdcontoh2"> $$B. \space cos \space &beta; = \frac{Samping}{Miring}$$</label><br>
+                      <!-- <input type="radio" name="rd" id="rdcontoh3"> -->
+                      <label for="rdcontoh3"> $$C. \space cos \space &beta; = \frac{Depan}{Samping}$$</label><br>
+                    </fieldset></center>
+                   
+                    <center> <p>pilih rumus yang akan dipakai (Pilih A/B/C) <input id="prumus" type="text" class="inputkecil"></p></center><br>
+                    <center><button type="button" class="button btn-primary" onclick="pinteraktif2()">Cek</button></center> <br>
+                    <!-- </form> -->
+                  <br>
+                  
+                  <center><p>------------------------------------------------------------------------------------</p></center>
+                  <center><h4>Hasil </h4><br> <p>(bulatkan 3 angka di belakang koma)</p>
+
+                  </center>
+                  <center><p>\(cos \space &beta;\) = <input id="hasilcontoh1" type="text" class="inputkecil">
+
+                  </p></center>
+
+
+                  <!-- ----------------------------------------------------------------------------------------- -->
+                  <center><button type="button" class="button btn-primary" onclick="pinteraktif22()">Cek</button></center>
+                  <div id="jawabcoba1"></div>
+                  <br>
+                   <br>
+                  <!-- mengamati -->
+                  </div>
+                <!-- home -->
+                   </div>
+                <!-- tab content -->
+                </div>
+                  <!-- card body -->
+              </div>
+                <!-- collaps one cos -->
+           </div>
+              <!-- card2 -->
+         </div>
+   <!-- ===================================STOP CARI COSINUS ALPHA =================-->
+
+<!-- SALAH SATU SISI -->
+        <div class="card">
+        <div class="card-header">
+          <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo2">
+          <font size="5%"><b>b. Mencari Salah Satu Sisi Cos &beta;</b></font>
+          </a>
+          </div>
+        <div id="collapseTwo2" class="collapse" data-parent="#accordion">
+        <div class="card-body">
+          <center>
+          <img src="../img/segitiga11.PNG" width="400" height="350">  <p><b>Gambar 1.5</b></p></center>
+          <div class="mengamati1">
+            <p>Perhatikan <b>Gambar 1.5</b>. Gambar tersebut memperlihatkan suatu segitiga siku-siku dengan panjang salah satu sisinya <b>\(m\)</b> cm. Berapakah nilai <b>\(m\)</b> yang benar?</p> 
+              <center><p>----------------------------------------------------------------</p>
+              <h4>Diketahui</h4> <br>
+              <p><b>panjang sisi miring =</b> <input id="sisim" type="text" class="inputkecil"> cm</p>
+              <p><b>sudut 60&deg;</b></p>
+              <br>
+              <p>-------------------------------------------------------------------------</p>
+              <h4>Ditanyakan</h4>
+              <p>Berapa nilai <b><i>m</i></b></p>
+              <br>
+              <p>--------------------------------------------------------------------------</p>
+              <h4>Penyelesaian</h4></center>
+
+              <center> <fieldset>
+            
+                <label for="rdcontoh1"> $$A.\space cos \space &beta; = \frac{Depan}{Miring}$$</label><br>
+               
+                <label for="rdcontoh2"> $$B.\space cos \space &beta; = \frac{Samping}{Miring}$$</label><br>
+                
+                <label for="rdcontoh3"> $$c.\space cos \space &beta; = \frac{Depan}{Samping}$$</label><br>
+              </fieldset></center>
+              <center> <p>pilih rumus yang akan dipakai (pilih A/B/C) <input id="prumus2" type="text" class="inputkecil"></p></center><br>
+              <center><button type="button" class="btn btn-primary btn-sm" id="myFunction" onclick="pinteraktif23()">cek</button></center> <br>
+              <center><p>------------------------------------------------------------------------------------</p></center>
+              <center><h4>Hasil</h4></center>
+              <center><p>Nilai m =  <input id="hasilcontoh2" type="text" class="inputkecil">cm
+              </p></center>
+              <center>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<button type="button" class="btn btn-primary btn-sm" id="myFunction" onclick="pinteraktif231()">cek</button> 
+                <button style="float:right" type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo">KALKUKATOR</button>
+                <div id="demo" class="collapse">
+                <div id="mengamati22" class="mengamati22">
+                  <!-- <div class="main"> -->
+    
+                    <p align="right" id="info"><b>RAD</b></p>
+                    <form name="form">
+                      <input name="textinput" class="textinput">
+                    </form>
+                    
+                    <table>
+                      <tr>
+                        <td><button class="butt" onclick="clean()">C</button></td>
+                        <td><button class="butt" onclick="back()">DEL</button></td>
+                        <td><button class="butt" onclick="insert('+')">+</button></td>
+                        <td><button class="butt" onclick="insert('-')">-</button></td>
+                        <td><button class="butt" onclick="calc_sin()">sin</button></td>
+                        <td><button class="butt" onclick="insert('**')">^</button></td>
+                      </tr>
+                      <tr>
+                      <td><button class="butt" onclick="insert(1)">1</button></td>
+                      <td><button class="butt" onclick="insert(2)">2</button></td>
+                      <td><button class="butt" onclick="insert(3)">3</button></td>
+                      <td><button class="butt" onclick="insert('*')">*</button></td>
+                      <td><button class="butt" onclick="calc_cos()">cos</button></td>
+                      <td><button class="butt" id="deg" onclick="calc_deg()">deg</button></td>
+                      </tr>
+                      <tr>
+                      <td><button class="butt" onclick="insert(4)">4</button></td>
+                      <td><button class="butt" onclick="insert(5)">5</button></td>
+                      <td><button class="butt" onclick="insert(6)">6</button></td>
+                      <td><button class="butt" onclick="insert('/')">/</button></td>
+                      <td><button class="butt" onclick="calc_tan()">tan</button></td>
+                      <td><button class="butt" id="rad" style="border: solid red" onclick="calc_rad()">rad</button></td>
+                    </tr>
+                      <tr>
+                      <td><button class="butt" onclick="insert(7)">7</button></td>
+                      <td><button class="butt" onclick="insert(8)">8</button></td>
+                      <td><button class="butt" onclick="insert(9)">9</button></td>
+                      <td><button class="butt" onclick="calc_sqrt()">sqrt</button></td>
+                      <td><button class="butt" onclick="insert('(')">(</button></td>
+                      <td rowspan = 2><button class="butt" style="height:50" onclick="calculate()">=</button></td>
+                      </tr>
+                      <tr>
+                      <td colspan=2><button class="butt" style="width:50" onclick="insert(0)">0</button></td>
+                      <td><button class="butt" onclick="insert('.')">.</button></td>
+                      <td><button  class="butt" onclick="calc_percent()">%</button></td>
+                      <td><button  class="butt" onclick="insert(')')">)</button></td>
+                      </tr>
+                    </table>
+                    <!-- </div> -->
+                
+                </div>
+                </div>
+              </center> <br>
+              <div id="jawabcoba2"></div>
+            <br>
+
+            <br>
+             
+
+
+              
+
+
+            <!-- mengamati -->
+          </div>
+            <!-- card  body -->
+           </div>
+           <!-- collaps2 -->
+          </div>
+          <!-- card -->
+        </div>
+
+         <!--accordian  -->
+    </div>
+  <!--  tab cosinus  -->
+    </div>
+
+    <!-- ================================================SELESAI TAB COSINUS==================================================================== -->
+            
+    
+    
+    
+    <!-- ====================================================TANGEN============================================================= -->
+        <div id="tangen" class="container tab-pane fade"> <br>
+          <h3> <b>C. TANGEN</b> </h3>
+          <div id="accordion">
+      <h5><b>Mari Mencoba</b></h5>
+            <!-- CARI TAN ALPHA -->
+            <div class="card">
+            <div class="card-header">
+            <a class="card-link" data-toggle="collapse" href="#collapseOne">
+                   <h4><b>a. Mendapatkan tan &theta;</b></h4>
+            </a>
+            </div>
+            <div id="collapseOne" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+            <div class="tab-content"> 
+            
+            <div id="home" class="container tab-pane active"> 
+              <div class="mengamati1"> 
+
+                <center>
+                  <img src="../img/segitiga7.PNG"  width="350" height="300"><p><b>Gambar 1.6</b></p></center>
+                  <center><p>------------------------------------------------------------------------------------------------------------------------------------------------------</p></center>
+                  <h5>Perhatikan Segitiga pada <b>Gambar 1.6</b>. Berapakah tan &theta;?</h5>
+                
+
+                  <center><p>-----------------------------------------------------------------------------------------------------------------------------------------------------</p></center>
+                  <center><h4>Diketahui</h4></center>
+                  <center><p>panjang <b><i>sisi depan sudut &theta; =</i></b> <input id="p" type="text" class="inputkecil">cm <br></p></center> 
+                  <center> <p>panjang <b><i>sisi samping sudut &theta; =</i></b> <input id="q" type="text" class="inputkecil">cm <br></p></center> 
+                  <center> <p>panjang <b><i>sisi miring sudut &theta; =</i></b> <input id="r" type="text" class="inputkecil">cm <br></p></center> 
+                  <br>
+                 
+                  <center><p>----------------------------------------------------------------------------------------------------------------------------------------------------</p></center>
+                  <center><h4>Ditanyakan</h4></center>
+                  <center><p>Berapakah <b><i>tan &theta; ?</i></b></p></center>
+                  <br>
+                  <center><h4>Penyelesaian</h4></center>
+                  <center><p>----------------------------------------------------------------------------------------------------------------------------------------------</p></center>
+                  <center> <p>pilih rumus yang akan dipakai<br></p></center>
+                  <!-- <form action=""> -->
+                    <!-- <fieldset> -->
+                      <!-- <input type="radio" name="rd" id="rdcontoh1"> -->
+                    <center><label for="rdcontoh1"> $$A. \space tan \space &theta; = \frac{Depan}{Miring}$$</label><br></center>
+                      <!-- <input type="radio" name="rd" id="rdcontoh2"> -->
+                    <center><label for="rdcontoh2"> $$B. \space tan \space &theta; = \frac{Samping}{Miring}$$</label><br></center>
+                      <!-- <input type="radio" name="rd" id="rdcontoh3"> -->
+                    <center><label for="rdcontoh3"> $$C. \space tan \space &theta; = \frac{Depan}{Samping}$$</label><br></center>
+                    <!-- </fieldset> -->
+                  <!-- </form> -->
+                  <center> <h5>Pilih rumus yang akan dipakai (A/B/C) <input id="prumus1" type="text" class="inputkecil"></h5></center><br>
+                  <br>
+                  <center><button type="button" class="button btn-primary" onclick="pinteraktif31()">Cek</button></center> <br>
+                  <center><p>----------------------------------------------------------------------------------------------------------------------------------------------</p></center>
+                  <center><h4>Hasil</h4></center>
+                  <center><p>tan &theta; ? = <input id="hasilcontoh3" type="text" class="inputkecil">
+                  </p> </center>
+                  <center><button type="button" class="button btn-primary" onclick="pinteraktif32()">Cek</button></center> <br>
+                   <br>
+                   <div id="jawabcoba3"></div>
+                  <!-- mengamati1 -->
+                  </div>
+                
+              <!-- home -->
+                </div>
+              <!--tab conten  -->
+              </div>
+              <!-- card body -->
+            </div>
+            <!-- collaps1 -->
+          </div>
+          <!-- card -->
+       </div>
+
+    <!-- SALAH SATU SISI -->
+    <div class="card">
+      <div class="card-header">
+        <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+        <h4><b>b. Mencari Salah Satu Sisi</b></h4>
+        </a>
+       </div>
+        <div id="collapseTwo" class="collapse" data-parent="#accordion">
+        <div class="card-body">
+          <div class="mengamati1">
+        <center> 
+        <img src="../img/segitiga13.PNG" width="270" height="350"><p><b>Gambar 1.7</b></p> </center>
+       
+        <center><p>-------------------------------------------------------------------------------------</p></center>
+           
+        <center> <p>Perhatikan <b>Gambar 1.7</b>. Berdasarkan gambar, berapakah nilai <b>\(n\)</b>?</p> 
+            <p>-------------------------------------------------------------------------------------</p></center>
+           
+            <center><h4>Diketahui</h4></center>
+            <center> <p><b>panjang sisi depan dari Sudut 30&deg; =</b> <input id="siDe" type="text" class="inputkecil"> cm</p></center> <br>
+           <center> <p><b>Sudut 30&deg;</p></center><br>
+           
+            <br>
+            
+            <center><p>-------------------------------------------------------------------------------------</p></center>
+            <center><h4>Ditanyakan</h4></center>
+            <center><p>Berapakah nilai<b><i> n</i></b></p></center>
+            <br>
+            
+           <center> <p>-------------------------------------------------------------------------------------</p></center>
+           <center><h4>Penyelesaian</h4></center>
+           
+            <!-- <form action=""> -->
+             <center> <fieldset>
+                <!-- <input type="radio" name="rd" id="rdcontoh1"> -->
+                <label for="rdcontoh1"> $$A. \space tan \space &beta; = \frac{Depan}{Miring}$$</label><br>
+                <!-- <input type="radio" name="rd" id="rdcontoh2"> -->
+                <label for="rdcontoh2"> $$B. \space tan \space &beta; = \frac{Samping}{Miring}$$</label><br>
+                <!-- <input type="radio" name="rd" id="rdcontoh3"> -->
+                <label for="rdcontoh3"> $$C. \space tan \space &beta; = \frac{Depan}{Samping}$$</label><br>
+              </fieldset></center>
+              <center> <h5>Pilih rumus yang akan dipakai (A/B/C) <input id="prumus3" type="text" class="inputkecil"></h5></center><br>
+            <!-- </form> -->
+            <br> <center><button type="button" class="btn btn-primary btn-sm" id="myFunction" onclick="pinteraktif41()">cek</button></center> <br>
+            
+            <center><p>------------------------------------------------------------------------------------</p></center>
+            <center><h4>Hasil</h4></center>
+            <center><p>Nilai n =  <input id="hasilcontoh4" type="text" class="inputkecil">cm
+
+            </p></center>
+            <center><button type="button" class="btn btn-primary btn-sm" id="myFunction" onclick="pinteraktif42()">cek</button>
+            </center> <br>
+            <button style="float:right" type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo1">KALKUKATOR</button>
+            <div id="demo1" class="collapse">
+            <div id="mengamati22" class="mengamati22">
+              <!-- <div class="main"> -->
+
+                <p align="right" id="info2"><b>RAD</b></p>
+                <form name="form2">
+                  <input name="textinput2" class="textinput2" />
+                </form>
+                
+                <table>
+                  <tr>
+                    <td><button class="butt" onclick="clean2()">C</button></td>
+                    <td><button class="butt" onclick="back2()">DEL</button></td>
+                    <td><button class="butt" onclick="insert2('+')">+</button></td>
+                    <td><button class="butt" onclick="insert2('-')">-</button></td>
+                    <td><button class="butt" onclick="calc_sin2()">sin</button></td>
+                    <td><button class="butt" onclick="insert2('**')">^</button></td>
+                  </tr>
+                  <tr>
+                  <td><button class="butt" onclick="insert2(1)">1</button></td>
+                  <td><button class="butt" onclick="insert2(2)">2</button></td>
+                  <td><button class="butt" onclick="insert2(3)">3</button></td>
+                  <td><button class="butt" onclick="insert2('*')">*</button></td>
+                  <td><button class="butt" onclick="calc_cos2()">cos</button></td>
+                  <td><button class="butt" id="deg_" onclick="calc_deg2()">deg</button></td>
+                  </tr>
+                  <tr>
+                  <td><button class="butt" onclick="insert2(4)">4</button></td>
+                  <td><button class="butt" onclick="insert2(5)">5</button></td>
+                  <td><button class="butt" onclick="insert2(6)">6</button></td>
+                  <td><button class="butt" onclick="insert2('/')">/</button></td>
+                  <td><button class="butt" onclick="calc_tan2()">tan</button></td>
+                  <td><button class="butt" id="rad_" style="border: solid red" onclick="calc_rad2()">rad</button></td>
+                </tr>
+                  <tr>
+                  <td><button class="butt" onclick="insert2(7)">7</button></td>
+                  <td><button class="butt" onclick="insert2(8)">8</button></td>
+                  <td><button class="butt" onclick="insert2(9)">9</button></td>
+                  <td><button class="butt" onclick="calc_sqrt2()">sqrt</button></td>
+                  <td><button class="butt" onclick="insert2('(')">(</button></td>
+                  <td rowspan = 2><button class="butt" style="height:50" onclick="calculate2()">=</button></td>
+                  </tr>
+                  <tr>
+                  <td colspan=2><button class="butt" style="width:50" onclick="insert2(0)">0</button></td>
+                  <td><button class="butt" onclick="insert2('.')">.</button></td>
+                  <td><button  class="butt" onclick="calc_percent2()">%</button></td>
+                  <td><button  class="butt" onclick="insert2(')')">)</button></td>
+                  </tr>
+                </table>
+                <!-- </div> -->
+            
+            </div>
+            </div>
+           <br>
+            <div id="jawabcoba4"></div> 
+            <br>
+           
+                    <br>
+
+
+          <!-- mengamati -->
+        </div>
+          <!-- card body -->
+            </div>
+          <!-- collaps2 -->
+          </div>
+          <!-- card -->
+        </div>
+
+<!-- ================================stop mencar1 tan alpha=========================== -->
+
+              <!-- accordian -->
+              </div>
+           <!-- tab tangen -->
+            </div>
+    <!-- ================================================SELESAI TAB TANGEN==================================================================== -->
+
+    
+    
+    <!-- ============================================================================================================================================== -->
+            <!-- 4.tabconten -->
+          </div>
+       <!--3. container -->
+       </div>
+       <!--2. konten4 -->
+      </div>
+     <!-- 1. seluruh konten -->
+    </div>
+  
+   
+
+
+
+
+
+</section>
+</body>
+<footer>
+
+  <div class="dot-container">
+     
+    <a href="1.1.html" class="previous"><b> &laquo; Sebelumnya</b></a>
+
+    <a  href="1.1.html" class="dot">1</a> 
+    <a  href="1.2.html" class="dot active">2</a>
+    <a  href="1.lat 1.html" class="dot">3</a>
+    <a  href="1.3.html" class="dot">4</a>
+    <a  href="1.4.html" class="dot">5</a>
+    <a  href="1.lat 3.html" class="dot">6</a>
+    <a  href="1.kuis1.html" class="dot">7</a>
+
+    <a href="1.lat 1.html" class="next"><b> Selanjutnya &raquo;</b></a>
+  </div> 
+</footer>
+
+<script src="1.latihan1.js"></script>
+<script src="jvsript.js"></script>
+<script src="jquery/jquery-3.3.1.min.js"></script>
+<script src="../assets/js/accord.js"></script>
+<script type="text/javascript" src="asset/accord.js"></script>
+<script src="script.js"> </script>
+<script src="kalku.js"></script>
+<script src="kalku2.js"></script>
+
+ 
+
+</html>

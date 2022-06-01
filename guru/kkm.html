@@ -1,0 +1,108 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>KKM</title>
+    <!-- <link rel="stylesheet" href="../css/csshasil.css" type="text/css"> -->
+    <link rel="shortcut icon" type="icon" href="../../img/ico.png"> 
+    <link rel="stylesheet" href="../fontawesome/css/all.css">
+	<script src="https://kit.fontawesome.com/317815b2fb.js" crossorigin="anonymous"></script>	
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+<style>
+    label, button{
+        margin-right: 0.5%;
+    }
+    table{
+        margin: 5px;
+    }
+    @media(max-width: 1000px) {
+    .card{
+        width: fit-content;
+    }
+    
+}
+</style>
+
+</head>
+
+<body>
+    
+  <div class="card-header text-center" style="background-color: rgb(255, 153, 153);">
+  <img class="logo" src="img/logo1.png">
+  </div>
+<!-- <br> -->
+<button type="button" class="btn btn-outline-success" style="width: fit-content;margin: 10px 10px;" onclick="location.href='halamanguru.html'"><i class="fas fa-arrow-circle-left"></i>&nbsp;&nbsp;Kembali</button>
+
+
+          <center>
+         
+            <table class="table" >
+              <thead>
+                <tr>
+                    <th scope="col" >Kuis/Evaluasi</th>
+                    <th scope="col">Ubah KKM</th>
+                    <th scope="col" >KKM saat ini</th>
+ 
+                </tr>
+                </thead>
+                <tr>
+                    <td ><b>Kuis 1</b> </td>
+                    <td>
+                        <input id="kkm1" type="text" name="kkm1" placeholder="KKM" >
+                        <button class="btn btn-success btn-sm"  type="button" onclick="km1()">Ubah</button>
+                    </td>
+                    <td > <a id="isi1" type="text" > </td>
+                </tr>
+                <tr>
+                    <td><b>Kuis 2</b></td>
+                    <td>
+                        <input id="kkm2" type="text" name="kkm2" placeholder="KKM" >
+                        <button class="btn btn-success btn-sm"  type="button" onclick="km2()">Ubah</button>
+                    </td>
+                    <td > <a id="isi2" type="text" style="pointer-events:none;"> </td>
+                </tr>
+                <tr>
+                    <td><b>Kuis 3</b></td>
+                    <td>
+                        <input id="kkm3" type="text" name="kkm3" placeholder="KKM" >
+                        <button class="btn btn-success btn-sm"  type="button" onclick="km3()">Ubah</button>
+                    </td>
+                    <td > <a id="isi3" type="text" style="pointer-events:none;"> </td>
+                </tr>
+                <tr>
+                    <td><b>Evaluasi</b></td>
+                    <td>
+                      <input id="kkm4" type="text" name="kkm4" placeholder="KKM" >
+                      <button class="btn btn-success btn-sm"  type="button" onclick="km4()">Ubah</button>
+                    </td>
+                    <td > <a id="isi4" type="text" style="pointer-events:none;"> </td>
+                </tr>
+                
+            </table>
+            <hr>
+            </center>
+  
+
+  <!-- Bootstrap core JavaScript-->
+  <script src="../assets/vendor/jquery/jquery.min.js"></script>
+  <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Core plugin JavaScript-->
+  <script src="../assets/vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for all pages-->
+  <script src="../assets/js/sb-admin-2.min.js"></script>
+
+  <!-- Page level plugins -->
+  <script src="../assets/vendor/chart.js/Chart.min.js"></script>
+
+  <!-- Page level custom scripts -->
+  <script src="../assets/js/demo/chart-area-demo.js"></script>
+  <script src="../assets/js/demo/chart-pie-demo.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-database.js"></script>
+
+<script src="guru.js"></script>
+</body>
+</html> 

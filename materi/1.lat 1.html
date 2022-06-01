@@ -1,0 +1,255 @@
+<html>
+<head>
+<title>1.3.2</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="home.css" rel="stylesheet" type="text/css" media="screen" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+<style>
+  div#demo.collapse.show {
+    background-color: whitesmoke;
+}
+
+  button .butt {
+  width: 50;
+  height: 30;
+  font-size: 13;
+  border: solid;
+}
+
+
+
+button .butt2 {
+width: 50;
+height: 30;
+font-size: 13;
+border: solid;
+}
+
+.textinput {
+  width: 230;
+  margin-left: 10;
+  margin-right: 10;
+  height: 30;
+  border: solid;
+  font-size: 20;
+  color: #43d995;
+}
+.textinput2 {
+  width: 230;
+  margin-left: 10;
+  margin-right: 10;
+  height: 30;
+  border: solid;
+  font-size: 20;
+  color: #43d995;
+}
+</style>
+</head>
+<body>
+
+  <header> 
+    <div class="headermenu">
+      <center>&nbsp;&nbsp;&nbsp;&nbsp;T R I G O N O M E T R I I </center>
+      </div>
+
+     </header>
+  
+     <section>
+      <center><a  href="../index.html" >Halaman Utama</a></center>
+      <nav>
+        <div class="list">Daftar Materi</div>
+        <div class="button-nav">
+          <button class="dropbtn dropdown-btn" button onclick="location.href='0.pengenalan.html'">MENGENAL TRIGONOMETRI</button>
+        
+          <button class="dropbutton dropdown-btn aktif" onclick="ftampil()">1. PERBANDINGAN TRIGONOMETRI
+            <i class="fa fa-caret-down"></i>
+          </button>
+    
+          <div class="dropdown-content dropdown-containerr">
+            <a href="1.1.html" class="hvr">MATERI</a>
+            <a href="1.kuis1.html">Kuis</a>
+          </div>
+    
+      
+          
+           <button class="dropbtn dropdown-btn" onclick="ftampil()">2. PERBANDINGAN TRIGONOMETRI SUDUT BERELASI
+              <i class="fa fa-caret-down"></i>
+          </button>
+    
+           <div class="dropdown-content dropdown-container">
+             <a href="2.1.html">MATERI</a>
+             <a href="2.kuis2.html">Kuis</a>
+             
+            </div>
+          
+     
+        
+            <button class="dropbtn dropdown-btn" onclick="ftampil()">3.  GRAFIK FUNGSI SINUS, KOSINUS, dan TANGEN
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content dropdown-container">
+              <a href="3.1.html">MATERI</a>
+              <a href="3.kuis3.html">Kuis</a>
+            </div>
+  
+    
+          <button class="button" button onclick="location.href='evaluasi.html'">Evaluasi</button>
+        </div>
+      </nav>
+  
+
+  <div class="Isi-Kiri1">
+    <div class="subsection">
+      1. Perbandingan Trigonometri
+    </div>
+    
+    <div class="konten33">   
+      <!-- Andakan materi bergambar -->
+      <br>
+        <!-- <div class="wadahgambar"> -->
+       
+        
+      <!-- </div> -->
+      <div class="contoh">
+        <font size="4%">BERLATIH 1</font>
+       </div> 
+       <button style="float:center; margin:4px" type="button" class="btn btn-primary btn-sm active" button onclick="location.href='1.lat 1.html'">1</button>
+       <button  type="button" class="btn btn-primary btn-sm" button onclick="location.href='1.lat 2.html'">2</button>
+      
+        
+       <div class="mengamati1">
+         
+
+           <br>
+           
+           <img src="../img/soal perbandingan 2.PNG" alt="">
+          <!-- <img src="../img/Atap1.jpg"   width="400" height="450" style="float:left; margin:9px"> -->
+            <h5>Perhatikan gambar di atas, Diketahui \(TM \perp AB\) Panjang \(MB \space = \space 5 \space cm, \space AT \space = \space 13 \space cm\)
+                dan besar \(\angle CBT = 135 &deg;\) </h5>
+              <!-- <div class="mencoba">
+              <h5> Panjang Garis <b> Miring </b>dari sudut &theta; = <input id="mir" type="text" class="inputkecil"> </h5> 
+              <h5> Panjang Garis <b> Depan </b> dari sudut &theta; = <input id="dep" type="text" class="inputkecil"> </h5> 
+              <h5> Panjang Garis <b> Samping </b> dari sudut &theta; = <input id="sam" type="text" class="inputkecil"> </h5>  -->
+
+              <div class="mencobalat">
+              <h5>Panjang AB =  <input id="lat1" type="text" class="inputkecil">cm 
+                
+                <button type="button" class="btn btn-primary btn-sm" onclick="Latihan1()">cek</button>
+                <button style="float:right" type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo">KALKUKATOR</button>
+                <div id="demo" class="collapse">
+                <div id="mengamati22" class="mengamati22">
+                  <!-- <div class="main"> -->
+    
+                    <p align="right" id="info"><b>RAD</b></p>
+                    <form name="form">
+                      <input name="textinput" class="textinput" />
+                    </form>
+                    
+                    <table>
+                      <tr>
+                        <td><button class="butt" onclick="clean()">C</button></td>
+                        <td><button class="butt" onclick="back()">DEL</button></td>
+                        <td><button class="butt" onclick="insert('+')">+</button></td>
+                        <td><button class="butt" onclick="insert('-')">-</button></td>
+                        <td><button class="butt" onclick="calc_sin()">sin</button></td>
+                        <td><button class="butt" onclick="insert('**')">^</button></td>
+                      </tr>
+                      <tr>
+                      <td><button class="butt" onclick="insert(1)">1</button></td>
+                      <td><button class="butt" onclick="insert(2)">2</button></td>
+                      <td><button class="butt" onclick="insert(3)">3</button></td>
+                      <td><button class="butt" onclick="insert('*')">*</button></td>
+                      <td><button class="butt" onclick="calc_cos()">cos</button></td>
+                      <td><button class="butt" id="deg" onclick="calc_deg()">deg</button></td>
+                      </tr>
+                      <tr>
+                      <td><button class="butt" onclick="insert(4)">4</button></td>
+                      <td><button class="butt" onclick="insert(5)">5</button></td>
+                      <td><button class="butt" onclick="insert(6)">6</button></td>
+                      <td><button class="butt" onclick="insert('/')">/</button></td>
+                      <td><button class="butt" onclick="calc_tan()">tan</button></td>
+                      <td><button class="butt" id="rad" style="border: solid red" onclick="calc_rad()">rad</button></td>
+                    </tr>
+                      <tr>
+                      <td><button class="butt" onclick="insert(7)">7</button></td>
+                      <td><button class="butt" onclick="insert(8)">8</button></td>
+                      <td><button class="butt" onclick="insert(9)">9</button></td>
+                      <td><button class="butt" onclick="calc_sqrt()">sqrt</button></td>
+                      <td><button class="butt" onclick="insert('(')">(</button></td>
+                      <td rowspan = 2><button class="butt" style="height:50" onclick="calculate()">=</button></td>
+                      </tr>
+                      <tr>
+                      <td colspan=2><button class="butt" style="width:50" onclick="insert(0)">0</button></td>
+                      <td><button class="butt" onclick="insert('.')">.</button></td>
+                      <td><button  class="butt" onclick="calc_percent()">%</button></td>
+                      <td><button  class="butt" onclick="insert(')')">)</button></td>
+                      </tr>
+                    </table>
+                    <!-- </div> -->
+                
+                </div>
+                </div>
+              </h5>
+                <div id="jawab3"></div>
+                
+              </div>
+                <!-- <br>
+                <div id="jawaban3"></div>   -->
+              <!-- <button type="button" class="btn btn-primary btn-sm" id="myFunction" onclick="Functionfour()">cek</button> </h5>  -->
+              <!-- </div> -->
+
+              <!-- <div class="mencoba"> 
+                <center>
+                
+                <br> 
+                <div id="jawaban3"></div>  
+                <h5>\(cos \space &theta; \space = \) <input type="text" class="inputkecil"> <button type="button" class="btn btn-primary btn-sm" id="myFunction" onclick="myFunction()">cek</button></h5> 
+                <h5>\(tan \space &theta; \space = \) <input type="text" class="inputkecil"> <button type="button" class="btn btn-primary btn-sm" id="myFunction" onclick="myFunction()">cek</button></h5> 
+                </center>
+
+              </div> -->
+
+    <!-- <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> -->
+    
+</div>	
+</div>
+
+
+</section>
+</body>
+<footer>
+
+  <div class="dot-container">
+    
+    
+    <a href="1.2.html" class="previous"><b> &laquo; Sebelumnya</b></a>
+
+    <a  href="1.1.html" class="dot">1</a> 
+    <a  href="1.2.html" class="dot">2</a>
+    <a  href="1.lat 1.html" class="dot active">3</a>
+    <a  href="1.3.html" class="dot">4</a>
+    <a  href="1.4.html" class="dot">5</a>
+    <a  href="1.lat 3.html" class="dot">6</a>
+    <a  href="1.kuis1.html" class="dot">7</a>
+
+    <a href="1.3.html" class="next"><b> Selanjutnya &raquo;</b></a>
+  </div>     
+</footer>
+
+<script src="1.latihan1.js"></script>
+<script src="jvsript.js"></script>
+<script src="jquery/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="asset/accord.js"></script>
+<script src="script.js"> </script>
+<script src="kalku.js"></script>
+
+  
+
+</html>

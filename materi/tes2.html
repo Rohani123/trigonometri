@@ -1,0 +1,44 @@
+<center><h5> A. \(sin \space \angle DEA\) = <input id="jwb_a" type="text" class="inputkecil"> 
+  <button type="button" class="btn btn-primary btn-sm" onclick="Latihan21()">cek</button>
+
+</h5> </center> 
+  <div id="jawab1"></div>
+</div>
+
+
+
+  <script>
+
+function Latihan21() {  
+    if (form.jwb_a.value=="") {
+      alert('nama  harus di isi !');
+      form.jwb_a.focus();
+      return false;
+    }
+  }
+
+    function Latihan21() {
+    var x = document.getElementById("jwb_a").value;
+    var jawab1;
+    
+   
+    if (x == "0,6") {
+        // jawaban = "Incorrect"; document.getElementById("coba1").style.color = "red";
+        jawab1 = document.getElementById('jwb_a');
+        jawab1 = `<div class="pembahasan mt-3 mr-3 p-3" style="background-color:green;color:white;">
+                            Jawaban Anda benar <br> </div>
+                            </div>`;  
+        
+    } else {
+        // jawaban = "Correct"; document.getElementById("coba1").style.color = "green";
+        jawab1 = document.getElementById('jwb_a');
+        jawab1 = `<div class="pembahasan mt-3 mr-3 p-3" style="background-color:red;color:white;">
+                            Jawaban Anda salah <br> </div>
+                            <h5>Perhatikan jawaban berikut ini</h5>
+                            <img src="../img/jawaban latihan perbandingan 5.PNG" alt="">
+                            <br>                     
+                            </div>`;  
+    }
+    document.getElementById("jawab1").innerHTML = jawab1;
+  }
+  </script>

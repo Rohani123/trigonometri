@@ -1,0 +1,106 @@
+body {
+	margin:0px;
+	
+}
+
+.header {
+	width:100%;
+	height:200px;
+	background-color:teal;
+}
+
+.jumbotron{
+	width: 100%;
+	background-image: url(../img/logo.PNG);
+	background-size: cover;
+	height: 30px;
+	}
+
+.jumbotron2{
+		width: 100%;
+		background-image: url(../img/logo.PNG);
+		background-size: cover;
+		height: 220px;
+		margin-top: 300px;
+		}	
+
+
+.container{
+	width: 100%;
+	background-color: whitesmoke;
+	padding-top: px;
+	text-align: center;
+	margin-top: px;
+}
+
+
+.judul {
+	font-size:35px;
+	font-family:candara;
+	color:white;
+	
+}
+
+h1{
+	
+}
+.kikd {
+	width:33%;
+	padding-top: 10px;	
+	background-color:transparent;
+	float:left;
+}
+.materi {
+	width:33%;
+	padding-top: 10px;	
+	background-color:transparent;
+	float:left;
+}
+.petunjuk {
+	width:33%;
+	padding-top: 0px;	
+	background-color:transparent;
+	float:left;
+}
+
+
+.img1 {
+	transition:0.5s;
+	
+}
+.img2 {
+	transition:0.5s;
+	
+}
+.img3 {
+	transition:0.5s;
+	
+}
+
+.img1:hover {
+	width:230px;
+	height:230px;
+	transition:0.5s;
+	
+}
+.img2:hover {
+	width:230px;
+	height:230px;
+	transition:0.5s;
+	
+}
+
+.img3:hover {
+	width:230px;
+	height:230px;
+	transition:0.5s;
+	
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,230 @@
+<html>
+<head>
+<title>TRIGONOMETRI</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="home.css" rel="stylesheet" type="text/css" media="screen" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+  <header> 
+    <div class="headermenu">
+      <center>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;T R I G O N O M E T R I I </center>
+    
+    </div>
+     </header>
+  
+     <section>
+      <center><a  href="../index.html" >Halaman Utama</a></center>
+      <nav>
+        <div class="list">Daftar Materi</div>
+        <div class="button-nav">
+          <button class="dropbutton dropdown-btn aktif" class="hvr" button onclick="location.href='0.pengenalan.html'">MENGENAL TRIGONOMETRI</button>
+        
+          <button class="dropbtn dropdown-btn" onclick="ftampil()">1. PERBANDINGAN TRIGONOMETRI
+            <i class="fa fa-caret-down"></i>
+          </button>
+    
+          <div class="dropdown-content dropdown-container">
+            <a href="1.1.html" >MATERI</a>
+            <a href="1.kuis1.html">Kuis</a>
+          </div>
+    
+      
+          
+           <button class="dropbtn dropdown-btn" onclick="ftampil()">2. PERBANDINGAN TRIGONOMETRI SUDUT BERELASI
+              <i class="fa fa-caret-down"></i>
+          </button>
+    
+           <div class="dropdown-content dropdown-container">
+             <a href="2.1.html">MATERI</a>
+             <a href="2.kuis2.html">Kuis</a>
+             
+            </div>
+          
+     
+        
+            <button class="dropbtn dropdown-btn" onclick="ftampil()">3.  GRAFIK FUNGSI SINUS, KOSINUS, dan TANGEN
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content dropdown-container">
+              <a href="3.1.html">MATERI</a>
+              <a href="3.kuis3.html">Kuis</a>
+            </div>
+  
+  
+    
+          <button class="button" button onclick="location.href='evaluasi.html'">Evaluasi</button>
+        </div>
+      </nav>
+  
+  
+
+  <div class="Isi-Kiri1">
+  <div class="subsection">
+        PENGENALAN SUDUT TRIGONOMETRI
+  </div>
+  <div class="konten3">
+    <br>
+    <h5>Sebelum kita mempelajari Trigonometri, kita coba mencari tau dulu bagaimana sejarah trigonometri. Coba perhatikan penjelasan video di bawah ini.</h5>
+  
+    <div class="mengamati1">
+      <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo">petunjuk penggunaan video</button>
+      <div id="demo" class="collapse">
+      <div id="mengamatiauto" class="dropdown-containerr"> <br>
+        1. Klik tombol <img src="../img/play.PNG" alt=""> untuk memulai video. <br>
+        2. Klik tombol <img src="../img/zoom.PNG" alt=""> untuk memperbesar video. <br>
+        3. Klik tombol <img src="../img/volume.PNG" alt="">untuk mengatur volume. 
+
+      </div>
+    </div>
+     
+      <br><br>
+    <center>    <video controls style="width: 100%">
+      <source src="../img/video pengenalan trigonometri.mp4" type="video/mp4"> <br>
+    
+    </video></center>   <br>
+   <h5> Setelah kalian memutar video di atas, silahkan isi kotak jawaban dibawah ini. <br>
+    1. Trigonometri adalah ilmu Matematika yang mempelajari mengenai <input style="width: 10%;" id="sdt" type="text" placeholder="  .  .  .  ." name="text1">
+    <br>  
+    2. Penemu konsep Trigonometri pertama kali adalah <input style="width: 10%;" id="penemu" type="text" placeholder="  .  .  .  ." name="text1">
+</h5>
+<center><button type="button" class="btn btn-primary btn-sm" id="perbandingan1" onclick="interaktifpengenalan()">cek</button></center>
+  </div> <br>
+
+<h5>&emsp;&emsp; Kalian sudah mengetahui sejarah dari Trigonometri dengan menonton video di atas. Mari sekarang kita mempelajari tentang Sudut Positif dan Negatif serta Sisi dan Sudut Segitiga.</h5>
+   <h3> <b>A. Sudut Positif dan Sudut Negatif</b> </h3>
+   <h5>Trigonometri berkaitan erat dengan ukuran sudut. Ukuran sudut bisa positif ataupun negative, tergantung pada arah pengukuran searah atau berlawanan dengan arah jarum jam. Perhatikan <b>Gambar (i)</b> dan <b>Gambar (ii)</b>.
+     
+   </h5>
+
+
+   <div class="konten1">
+    <h5> <center> <img src="../img/sudutpositif.PNG" width="350" height="350" ></center> <br>
+    <b> Gambar (i)</b> menunjukkan sudut <b><i> &alpha;</i></b> positif, yang diukur mulai dari  sumbu <b><i>X</i></b> positif berlawanan arah jarum jam</h5>
+    <br><br>
+   </div>
+   <div class="konten2">
+    <h5> <center><img src="../img/sudutnegatif.PNG" width="350" height="350"></center>  <br>
+      <b> Gambar (ii)</b> menunjukkan sudut <b><i> &alpha;</i></b> negatif, yang diukur mulai dari  sumbu <b><i>X</i></b> positif searah jarum jam</h5>
+      <br><br>
+   </div> <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  
+    <h3> <b>B.  Sisi dan Sudut Segitiga</b> </h3>
+    
+    <!-- <div class="konten3"> -->
+     <h5>Trigonometri juga berkaitan erat dengan sisi dan sudut pada segitiga siku-siku. Perhatikan <b>gambar (iii)</b> berikut. <br>
+     </h5>
+
+      <!-- Andakan materi bergambar -->
+ 
+      <div class="mengamati1">
+        
+        
+        <center><img src="../img/segitiga2.PNG"  width="400" height="300"></center>
+        <center><h5>Gambar (iii)</h5></center>
+   
+        <center><h5><div class="mengamati1">
+          &emsp;&emsp; <b> Gambar (iii) </b> memperlihatkan sebuah segitiga siku-siku yang ukuran salah satu sudutnya <i>α</i>. 
+          Pada segitiga tersebut sisi <i>y</i> berada di depan sudut <i>α</i>, maka disebut sisi depan. Sisi <i>r</i> merupakan sisi terpanjang, berada di depan sudut siku-siku dan disebut sisi miring/Hipotenusa. 
+          Sedangkan sisi <i>x</i> disebut sisi samping. Karena sisi <i>x</i> berada di samping sudut <i>α</i>. Maka dapat kita simpulkan bahwa:
+          <br><br>
+          <b>y</b> =  <b>Sisi Depan</b>
+          <br>
+          <b>x</b> = <b>Sisi Samping</b>
+          <br>
+          <b>r</b> = <b>Sisi Miring/sisi terpanjang/Hipotenusa</b>
+        </div></h5> </center> 
+      </div> <br>
+
+<div class="mengamati1">
+      <h5>Jika kalian sudah memahami. mari kita mencoba! </h5> <br>
+      <center> 
+      <!-- <div class="wadahgambar"> -->
+      <img src="../img/segitiga3.PNG"  width="400" height="300">
+      <h5>Gambar (iv)</h5>
+    </center>
+      <!-- </div> -->
+      <br><br>
+      <!-- <div class="mengamati25"> -->
+   <h5>Perhatikan segitiga pada <b>Gambar (iv)</b>. Kemudian isilah kotak jawaban di bawah ini dengan jawaban yang sesuai.
+       jawaban benar akan menampilkan warna hijau dan jawaban salah menampilkan warna merah</h5>
+      <br>
+      <center>
+      <h5><b>Sisi depan dari sudut &beta;</b> = <input id="D" type="text" class="inputkecil" > 
+      <br><br>
+      <b>Sisi samping dari sudut &beta;</b> = <input id="S" type="text" class="inputkecil" > 
+      <br><br>
+      <b>Sisi miring dari sudut &beta;</b> = <input id="M" type="text" class="inputkecil" ></h5> <br></center>  
+     <center><button type="button" class="button btn-primary" onclick="interaktif1()">Cek</button></center> <br><br><br>
+    <!-- </div> -->
+  </div><br><br>
+
+  
+
+  
+      </div>
+
+
+     
+
+
+  </div>
+
+
+
+
+
+</div>
+</div>  
+</section>
+</body>
+<footer>
+  <div class="dot-container">
+    
+    <!-- <a href="1.4.html" class="previous">&laquo; Sebelumnya</a>
+    <a  href="1.1.html" class="dot">1</a> 
+    <a  href="1.2.html" class="dot">2</a>
+    <a  href="1.3.1.html" class="dot">3</a>
+    <a  href="1.4.html" class="dot">4</a>
+    <a  href="1.5.html" class="dot">5</a>
+    <a  href="1.6.html" class="dot">6</a> -->
+
+  <center> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<a href="1.1.html" class="next">Selanjutnya &raquo;</a></center>
+  </div>   
+  
+</footer>
+<script>
+  function interaktifpengenalan(){
+    var x=document.getElementById('sdt').value;
+    var y=document.getElementById('penemu').value;
+  
+  
+  if (x =='sudut segitiga'){
+      document.getElementById('sdt').style="border: 3px solid green; font-size:15px; text-align:center;"
+    }
+  else{
+      document.getElementById('sdt').style="border: 3px solid red; font-size:15px; text-align:center;"
+  }
+  
+  if (y=='marwazi'){
+    document.getElementById('penemu').style="border: 3px solid green; font-size:15px; text-align:center;"
+  }
+  else{
+    document.getElementById('penemu').style="border: 3px solid red; font-size:15px; text-align:center;"
+  }
+  
+  
+  
+  
+  }
+</script>
+<script src="jvsript.js">
+</script>
+<script src="1.latihan1.js"></script>
+</html>

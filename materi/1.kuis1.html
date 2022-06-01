@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3.0.1/es5/tex-mml-chtml.js"></script>
+    <!-- <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script type="text/javascript" id="MathJax-script" async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/mml-chtml.js">
+    </script> -->
+
+    <title>TRIGONOMETRI</title>
+
+    <!-- Custom fonts for this template-->
+    <link href="../assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link
+        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+        rel="stylesheet">
+
+    <!-- Custom styles for this template-->
+    <link href="../assets/css/sb-admin-2.min.css" rel="stylesheet">
+    <link href="../assets/css/style.css" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="../../css/isi1.css">
+    <link rel="stylesheet" type="text/css" href="../../css/lat.css">
+    <link href="home.css" rel="stylesheet" type="text/css" media="screen" />
+
+    <style>
+        table,tr, th, td {
+  border: 1px solid transparent;
+}
+    </style>
+
+</head>
+<body id="page-top">
+
+    <header> 
+        <div class="headermenu">
+          <center>&nbsp;&nbsp;&nbsp;&nbsp;T R I G O N O M E T R I I </center>
+          </div>
+      
+    
+         </header>
+      
+         <section>
+          <center><a  href="../index.html">Halaman Utama</a></center>
+          <nav>
+            <div class="list">Daftar Materi</div>
+            <div class="button-nav">
+              <button class="dropbtn dropdown-btn" button onclick="location.href='0.pengenalan.html'">MENGENAL TRIGONOMETRI</button>
+            
+              <button class="dropbtn dropdown-btn aktif" onclick="ftampil()">1. PERBANDINGAN TRIGONOMETRI
+                <i class="fa fa-caret-down"></i>
+              </button>
+        
+              <div class="dropdown-content dropdown-containerr">
+                <a href="1.1.html" >MATERI</a>
+                <a href="1.kuis1.html" class="hvr">Kuis</a>
+              </div>
+        
+          
+              
+               <button class="dropbutton dropdown-btn " onclick="ftampil()">2. PERBANDINGAN TRIGONOMETRI SUDUT BERELASI
+                  <i class="fa fa-caret-down"></i>
+              </button>
+        
+               <div class="dropdown-content dropdown-container">
+                 <a href="2.1.html"  >MATERI</a>
+                 <a href="2.kuis2.html" >Kuis</a>
+                </div>
+              
+         
+            
+                <button class="dropbtn dropdown-btn" onclick="ftampil()">3. GRAFIK FUNGSI SINUS, KOSINUS, dan TANGEN
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content dropdown-container">
+                  <a href="3.1.html">MATERI</a>
+                  <a href="3.kuis3.html">Kuis</a>
+                </div>
+        
+              <button class="button" button onclick="location.href='../evaluasi/evaluasi.html'">Evaluasi</button>
+            </div>
+          </nav>
+      
+
+  <div class="Isi-Kiri1">
+    <div class="subsection">
+      KUIS 1  
+    </div>
+
+    <!-- <div class="konten44"> -->
+
+           
+ 
+        <!-- End of Topbar -->
+
+        <!-- Begin Page Content -->
+        <div class="container-fluid">
+
+            <!-- Content Row -->
+            
+            <center><div class="full hilang"> <a href="">Mulai</a></center> </div>
+    
+    <!-- KONTEN -->
+    <div class="konten" id="konten" style="top:0">       
+
+        <!-- BADAN KONTEN -->
+
+        <div class="inti-konten">
+
+            <div class="data" id="data">
+
+                <div class="data_diri">
+                  <div id="petunjuk">
+                    <div id="penyelesaian1" class="petunjuk11">
+                     <b>PETUNJUK</b> <br><br>
+                      1. Terdapat 10 soal pilihan ganda pada kuis ini.<br>
+                      2. Waktu untuk mengerjakan kuis 30 menit. <br>
+                      3. Sebelum mengerjakan soal, isi nama, kelas, dan sekolah pada kolom yang tersedia kemudian tekan "Mulai". <br>
+         
+                      </div>
+                      </div>
+
+                    <div class="container px-lg-5">
+                        <div class="row mx-lg-n5">
+
+
+
+                          <div class="col py-3 px-lg-5 border bg-light">
+                            <label for="nama"> Nama :
+                                <input type="text" id="nama" class="maju" placeholder="Masukkan nama anda . . . ">
+                            </label>
+                            <label for="nama"> Sekolah :
+                                <input type="text" id="sekolah" name="sekolah" class="mundur" placeholder="Nama sekolah . . . ">                               
+                            </label>
+                            <label for="nama"> Kelas :
+                                <select id="kelas" name="kelas" class="maju aaa" >
+                                    <option value="0" selected="selected"> Pilih Kelas </option>
+                                    <option value="1">IX A</option>
+                                    <option value="2">IX B</option>
+                                    <option value="3">IX C</option>
+                                    <option value="4">IX D</option>
+                                    <option value="5">IX E</option>
+                                    <option value="6">IX F</option>
+                                    <option value="6">IX G</option>
+                                </select>
+                            </label>
+                            <!-- <label for="nama"> Kelas :
+                                <input type="text" id="kelas" name="kelas" class="maju aaa" placeholder="Kelas . . . ">                                
+                            </label> -->
+
+                           <div class="lanjut">MULAI</div>
+                          </div>
+                        </div>
+                      </div>
+                    
+
+                    <!--<p>DATA DIRI</p>-->
+                    <br>
+                    
+                </div>
+            </div>
+            
+            <!-- <div class="up hilang" id="up">
+                <center><h1>Latihan 1</h1></center>
+                <hr>
+            </div> -->
+
+                <!-- KONTEN KIRI -->
+                     <div class="kiri hilang" id="kiri">
+                 <!-- <article >  
+                <div id="timer">30 : 00</div>
+                </article> -->
+                     </div>
+                 <!-- BATAS KONTEN KIRI -->
+
+
+
+
+            <!-- KONTEN DI KANAN -->
+            <div class="kanan hilang" id="kanan">
+
+                <div class="bg_nav">
+                  
+                    <div class="bg_full">
+                        <p class="text">Nomor Soal</p>
+                    </div>
+                    <div class="bg_soal">
+                        <div class="soal_nav belum">
+                            <p class="text1 fontsedang ">1</p>
+                        </div>
+                        <div class="soal_nav belum">
+                            <p class="text1 fontsedang">2</p>
+                        </div>
+                        <div class="soal_nav belum">
+                            <p class="text1 fontsedang">3</p>
+                        </div>
+                        <div class="soal_nav belum">
+                            <p class="text1 fontsedang">4</p>
+                        </div>
+                        <div class="soal_nav belum">
+                            <p class="text1 fontsedang">5</p>
+                        </div>
+                        <div class="soal_nav belum">
+                            <p class="text1 fontsedang">6</p>
+                        </div>
+                        <div class="soal_nav belum">
+                            <p class="text1 fontsedang">7</p>
+                        </div>
+                        <div class="soal_nav belum">
+                            <p class="text1 fontsedang">8</p>
+                        </div>
+                        <div class="soal_nav belum">
+                            <p class="text1 fontsedang">9</p>
+                        </div>
+                        <div class="soal_nav belum">
+                            <p class="text1 fontsedang">10</p>
+                        </div>
+
+                        <div class="clear"></div>
+                        <div class="ket fontsedang">
+                        <span class="belum">abu</span>=Belum dijawab <br>
+                        <span class="sudah">hijau</span> = Sudah dijawab
+                      </div>
+                    </div>
+
+                </div>
+
+            <!-- BATAS KONTEN KANAN -->
+
+
+          <div class="selesai">SELESAI</div>
+
+          </div> 
+
+            <!-- skor -->
+            <div class="dataaa hilang">
+                <center>
+                <div class="skornya">
+
+                    <h1>Hasil Kuis 1</h1>
+                    <br>
+                    <table class="t_hasil">
+                        <tr>
+                            <td class="ket_hasil">
+                                <p>NAMA</p>
+                            </td>
+                            <td>
+                                <p>:</p>
+                            </td>
+                            <td>
+                                <p class="nama ket_hasilnya">SISWA</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="ket_hasil">
+                                <p>SEKOLAH</p>
+                            </td>
+                            <td>
+                                <p>:</p>
+                            </td>
+                            <td>
+                                <p class="sekolah ket_hasilnya">SEKOLAH</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="ket_hasil">
+                                <p>KELAS</p>
+                            </td>
+                            <td>
+                                <p>:</p>
+                            </td>
+                            <td>
+                                <p class="kelas ket_hasilnya">7</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="ket_hasil">
+                                <p>HARI</p>
+                            </td>
+                            <td>
+                                <p>:</p>
+                            </td>
+                            <td>
+                                <p class="hari ket_hasilnya">Senin</p>
+                            </td>
+                        </tr>
+                        <tr style="display: none;">
+                            <td class="ket_hasil">
+                                <p>WAKTU SELESAI</p>
+                            </td>
+                            <td>
+                                <p>:</p>
+                            </td>
+                            <td>
+                                <p class="waktu ket_hasilnya">12:00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="ket_hasil">
+                                <p>SKOR</p>
+                            </td>
+                            <td>
+                                <p>:</p>
+                            </td>
+                            <td>
+                                <p class="hasill ket_hasilnya">50</p>
+                            </td>
+                        </tr>
+                    </table>   
+
+                <div id="ulang" class="ket_ulang hilang">
+                    <p class="pad"><font color="red"> Sebaiknya kamu mengulang materinya lagi karena nilai kamu kurang dari kkm</font></p>
+                  <button class="tmbl" button onclick="location.href='1.kuis1.html'">Ulang Kuis</a></button> 
+                    <button class="tmbl" button onclick="location.href='1.1.html'">Pelajari Ulang Materi</a></button>
+                </div>
+                
+                <button id="next" class="tmbl hilang" button onclick="location.href='1.2.html'">Materi Selanjutnya</button><br>
+
+                </div>
+                
+            </center>
+            </div>
+
+        </div>
+        <!-- /.container-fluid -->
+
+        
+
+    </div>
+    <!-- End of Main Content -->
+
+    <!-- Footer -->
+    <!-- <footer class="sticky-footer bg-white">
+        <div class="container my-auto">
+            <div class="copyright text-center my-auto">
+                <span>Copyright &copy; QE 2021</span>
+            </div>
+        </div>
+    </footer> -->
+    <!-- End of Footer -->
+
+</div>
+<!-- End of Content Wrapper -->
+
+</div>
+
+<!-- End of Page Wrapper -->
+
+<!-- Scroll to Top Button-->
+<a class="scroll-to-top rounded" href="#page-top">
+<i class="fas fa-angle-up"></i>
+</a>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered">
+<div class="modal-content">
+<div class="modal-header bg-danger text-white">
+  <h5 class="modal-title" id="exampleModalLabel">Peringatan</h5>
+  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+<div class="modal-body">
+  Maaf, Anda belum bisa membuka halaman ini karena belum menyelesaikan materi sebelumnya.
+</div>
+<div class="modal-footer">
+  <button type="button" class="btn btn-secondary" data-dismiss="modal">Ok</button>
+  
+</div>
+</div>
+</div>
+</div>
+
+</section>
+<script src="jvsript.js"></script>
+    <!-- Bootstrap core JavaScript-->
+    <script src="../assets/vendor/jquery/jquery.min.js"></script>
+    <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Core plugin JavaScript-->
+    <script src="../assets/vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for all pages-->
+    <script src="../assets/js/sb-admin-2.min.js"></script>
+
+    <!-- Page level plugins -->
+    <script src="../assets/vendor/chart.js/Chart.min.js"></script>
+
+    <!-- Page level custom scripts -->
+    <script src="../assets/js/demo/chart-area-demo.js"></script>
+    <script src="../assets/js/demo/chart-pie-demo.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-database.js"></script>
+    <script src="../assets/js/script.js"></script>
+    <script src="../assets/js/load-mathjax.js"></script>
+    <script src="1.latihan1.js"></script>
+    <script src="tutorial.js"></script>
+    <script scr="load-mathjax.js"></script>
+
+</body>
+
+
+ <footer>
+
+    <div class="dot-container"> 
+      
+      <!-- <a href="1.2.html" class="previous "><b> &laquo; Sebelumnya</b></a>
+  
+      <a  href="1.1.html" class="dot">1</a> 
+      <a  href="1.2.html" class="dot">2</a>
+      <a  href="1.3.1.html" class="dot">3</a>
+      <a  href="1.4.html" class="dot">4</a>
+      <a  href="1.5.html" class="dot">5</a>
+      <a  href="1.6.html" class="dot">6</a>
+  
+      <a href="1.4.html" class="next"><b> Selanjutnya &raquo;</b></a> -->
+    <!-- </div>   
+  -->
+     
+  
+  </footer>
+
+
+</html>

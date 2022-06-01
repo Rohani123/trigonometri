@@ -1,0 +1,250 @@
+<html>
+<head>
+<title>1.5</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="home.css" rel="stylesheet" type="text/css" media="screen" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+
+  <header> 
+    <div class="headermenu">
+      <center>&nbsp;&nbsp;&nbsp;&nbsp;T R I G O N O M E T R I I </center>
+      </div>
+
+     </header>
+  
+     <section>
+      <center><a  href="../index.html" >Halaman Utama</a></center>
+      <nav>
+        <div class="list">Daftar Materi</div>
+        <div class="button-nav">
+          <button class="dropbtn dropdown-btn" button onclick="location.href='0.pengenalan.html'">MENGENAL TRIGONOMETRI</button>
+        
+          <button class="dropbutton dropdown-btn aktif" onclick="ftampil()">1. PERBANDINGAN TRIGONOMETRI
+            <i class="fa fa-caret-down"></i>
+          </button>
+    
+          <div class="dropdown-content dropdown-containerr">
+            <a href="1.1.html" class="hvr">MATERI</a>
+            <a href="1.kuis1.html">Kuis</a>
+          </div>
+    
+      
+          
+           <button class="dropbtn dropdown-btn" onclick="ftampil()">2. PERBANDINGAN TRIGONOMETRI SUDUT BERELASI
+              <i class="fa fa-caret-down"></i>
+          </button>
+    
+           <div class="dropdown-content dropdown-container">
+             <a href="2.1.html">MATERI</a>
+             <a href="2.kuis2.html">Kuis</a>
+             
+            </div>
+          
+     
+        
+            <button class="dropbtn dropdown-btn" onclick="ftampil()">3.  GRAFIK FUNGSI SINUS, KOSINUS, dan TANGEN
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content dropdown-container">
+              <a href="3.1.html">MATERI</a>
+              <a href="3.kuis3.html">Kuis</a>
+            </div>
+  
+    
+          <button class="button" button onclick="location.href='evaluasi.html'">Evaluasi</button>
+        </div>
+      </nav>
+
+  
+
+  <div class="Isi-Kiri1">
+  <div class="subsection">
+        1. Perbandingan Trigonometri
+  </div>
+
+    <!-- Nav pills -->
+    <ul class="nav nav-pills" role="tablist">
+      <li class="nav-item">
+        <a class="nav-link active" data-toggle="pill" href="#home">SUDUT ELEVASI</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="pill" href="#menu1">SUDUT DEPRESI</a>
+      </li>
+  
+    </ul>
+    <div class="konten4">
+    <div class="mengamati225">
+    <!-- Tab panes -->
+    <div class="tab-content">
+      <div id="home" class="container tab-pane active"><br>
+          <h3>MARI MENGAMATI</h3>
+
+         <center> <img src="../img/sudutelevasi3.PNG" width="900" height="500"></center>
+         <center><p><b>Gambar 1.10</b></p></center>
+          <div class="mengamati1">
+           <p>Perhatikan <b>Gambar 1.10</b>. <br> Terdapat seorang yang sedang mengamati pohon.
+                Ia penasaran tinggi pohon tersebut. Pohon tersebut berjarak <b>12 meter</b> dengan dirinya. 
+                Ia mengetahui sudut elevasinya adalah <b>30&deg;</b>. jika tinggi orang tersebut adalah <b>1,8 meter</b>.
+                   Berapakah tinggi dari pohon cemara yang sejajar orang tersebut? </p>
+          </div>
+          <center> <br>
+  
+
+          <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#elevasi">Penyelesaian</button>
+
+          <div id="elevasi" class="collapse">
+          <div id="penyelesaian" class="penyelesaian">
+            <!-- <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#garis">Garis Bantu</button>
+            <div id="garis" class="collapse">
+              <div id="penyelesaian" class="penyelesaian">
+                <img src="../img/sudutelevasi4.PNG" width="700" height="400">
+                <center><h6>Gambar 1.15</h6></center>
+                </div> -->
+                </div>
+          <table class="table table-bordered">
+              <thead>
+               <tr>
+                  <th>No</th>
+                  <th>Keterangan</th>
+                  <th>Proses</th>
+              </tr>
+              </thead>
+              <tbody>
+              <tr>
+                  <th>1</th>
+                  <th>Garis Bantu</th>
+                  <th><img src="../img/sudutelevasi4.PNG">
+                    <center><p><b>Gambar 1.11</b></p></center>
+                  </th>
+                
+              </tr>
+              <tr>
+                  <th>2</th>
+                  <th>Apa Yang Dicari</th>
+                  <th><b>Tinggi pohon yang diamati? (sisi depan dari sudut elevasi) </b>  </th>
+              </tr>
+              <tr>
+                <th>3</th>
+                <th>Apa Saja yang diketahui</th>
+                <th><p>p = jarak antara pohon dan orang= sisi samping dari sudut elevasi 30&deg;<i> = 12 meter </i><br>
+                    <p>m = tinggi orang<b><i> = 1,8 meter</i></b><br>  
+                     <p>Sudut Elevasi = 30&deg;</p> 
+                </th>
+              </tr>
+              <tr>
+                  <th>3</th>
+                  <th>Masukan kedalam rumus</th>
+                  <th>terdapat sisi samping dan sisi depan. maka, <br>
+                      (lihatlah garis bantu) <br>
+                      $$tan \space &alpha; = \frac{Depan}{samping}$$
+
+                      $$tan \space &alpha; = \frac{Depan}{p}$$
+                      $$tan \space 30&deg; = \frac{Depan}{12}$$
+
+                      Untuk tan 30° kita bisa menggunakan kalkulator dengan menulis tan 30° dengan satuan derajat. 
+                      Maka hasil dari tan 30° adalah 0,57735027. Jadi: <br>
+                      $$0,57735027 = \frac{Depan}{12}$$
+                      $$Depan = 0,57735027 \cdot 12$$
+                      $$Depan = 6,92820323$$
+                      Dibulatkan menjadi 6,93 <br>
+                      sisi depan = Tinggi pohon - tinggi pengamat <br>
+                      Tinggi pohon = sisi Depan + Tinggi pengamat <br>
+                      Tinggi pohon = 6,93 + 1,8 <br>
+                      Tinggi pohon = 8,73 meter <br>
+                      Jadi, Tinggi pohon adalah 8,73 meter.
+
+                  </th>
+              </tr>
+
+              </tbody>
+           </table>
+        </center>
+       </div>
+
+
+
+
+<!-- SUDUT DEPRESI -->
+
+        <div id="menu1" class="container tab-pane fade"><br>
+        <h3>MARI MENGAMATI SUDUT DEPRESI</h3>
+          <center><img src="../img/sudutdepresi3.PNG" width="900" height="500"></center>
+          <center><p><b>Gambar 1.12</b></p></center>
+
+          <div class="mengamati1">
+            <p>Perhatikan <b>Gambar 1.12</b>! <br> 
+              Fadly dengan tinggi badan 175 cm sedang menikmati pemandangan dari atas Menara Pandang  di ketinggian <b>30 meter</b>. 
+              Dia melihat orang yang sedang membawa perahu di sungai Martapura. Dengan diketahui <b>sudut depresi 60°</b>. 
+              Berapakah jarak pandang fadly dengan orang yang sedang membawa perahu tersebut?</p>
+                 </div>
+                 <br>
+           <center><button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#tampil">PENYELESAIAN</button></center> 
+                 
+                 <div id="tampil" class="collapse">
+                 <div id="penyelesaian" class="penyelesaian">  
+                  <center>
+                    <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo">Cek Garis Bantu</button>
+                    <div id="demo" class="collapse">
+                    <div id="penyelesaian" class="penyelesaian"> 
+                      <center><img src="../img/sudutdepresi4.PNG" width="600" height="400"> </center>
+                      <center><p><b>Gambar 1.13</b></p></center>
+                    </div>
+                    </div>
+                  <center> DiKETAHUI</center> 
+                  <center> <p>------------------------------------------------------------------------</p>
+                  <p><b>jarak fadly ke permukaan sungai  = </b><input type="text" id="jrk" class="inputkecil"> meter</p>
+                  <p><b>sudut depresi  = </b><input type="text" id="depresi" class="inputkecil"> &deg;</p>
+                  <p><b>Tinggi Fadly  = </b><input type="text" id="tggF" class="inputkecil"> meter</p></center>
+                                    
+                  <p>-----------------------------------------------------------------------------</p>
+                  <p><b>Berapakah jarak pandang Fadly dengan orang perahu = </b><input type="text" id="hasiljrk" class="inputkecil"> meter</p> <br>
+                  <button type="button" class="btn btn-primary btn-sm" onclick="sudutdepresi()">cek</button> <br>
+                  <div id="jawaban4"></div>
+                </center>
+                  </p>
+                 </div>
+                 </div>  
+          </div> 
+        </div>
+
+
+    </div>
+    </div>
+  </div> 
+</div>
+</section>
+</body>
+<footer>
+
+  <div class="dot-container">
+    
+    <a href="1.3.html" class="previous"><b> &laquo; Sebelumnya</b></a>
+
+    <a  href="1.1.html" class="dot">1</a> 
+    <a  href="1.2.html" class="dot">2</a>
+    <a  href="1.lat 1.html" class="dot">3</a>
+    <a  href="1.3.html" class="dot">4</a>
+    <a  href="1.4.html" class="dot active">5</a>
+    <a  href="1.lat 3.html" class="dot">6</a>
+    <a  href="1.kuis1.html" class="dot">7</a>
+
+    <a href="1.lat 3.html" class="next"><b> Selanjutnya &raquo;</b></a>
+  </div>     
+
+</footer>
+<script src="1.latihan1.js"></script>
+<script src="jvsript.js"></script>
+<script src="jquery/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="asset/accord.js"></script>
+<script src="script.js"> </script>
+  
+</script>
+</html>

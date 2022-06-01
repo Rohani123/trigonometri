@@ -1,0 +1,142 @@
+<html>
+<head>
+<title>1.5</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="home.css" rel="stylesheet" type="text/css" media="screen" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+
+  <header> 
+    <div class="headermenu">
+      <center>&nbsp;&nbsp;&nbsp;&nbsp;T R I G O N O M E T R I I </center>
+      </div>
+
+     </header>
+  
+     <section>
+     <center> <a  href="../index.html" >Halaman Utama</a></center>
+      <nav>
+        <div class="list">Daftar Materi</div>
+        <div class="button-nav">
+          <button class="dropbtn dropdown-btn" button onclick="location.href='0.pengenalan.html'">MENGENAL TRIGONOMETRI</button>
+        
+          <button class="dropbutton dropdown-btn aktif" onclick="ftampil()">1. PERBANDINGAN TRIGONOMETRI
+            <i class="fa fa-caret-down"></i>
+          </button>
+    
+          <div class="dropdown-content dropdown-containerr">
+            <a href="1.1.html" class="hvr">MATERI</a>
+            <a href="1.kuis1.html">Kuis</a>
+          </div>
+    
+      
+          
+           <button class="dropbtn dropdown-btn" onclick="ftampil()">2. PERBANDINGAN TRIGONOMETRI SUDUT BERELASI
+              <i class="fa fa-caret-down"></i>
+          </button>
+    
+           <div class="dropdown-content dropdown-container">
+             <a href="2.1.html">MATERI</a>
+             <a href="2.kuis2.html">Kuis</a>
+             
+            </div>
+          
+     
+        
+            <button class="dropbtn dropdown-btn" onclick="ftampil()">3.  GRAFIK FUNGSI SINUS, KOSINUS, dan TANGEN
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content dropdown-container">
+              <a href="3.1.html">MATERI</a>
+              <a href="3.kuis3.html">Kuis</a>
+            </div>
+  
+    
+          <button class="button" button onclick="location.href='evaluasi.html'">Evaluasi</button>
+        </div>
+      </nav>
+  
+
+  
+
+  <div class="Isi-Kiri1">
+  <div class="subsection">
+        1. Perbandingan Trigonometri
+  </div>
+
+
+    <div class="konten33">
+ <div class="mengamati1">
+     <center><h3 class="dashed1">Latihan 2</h3></center> <br>
+     Perhatikan gambar dibawah ini dan jawablah pernyataan di bawahnya!
+     <center><img src="../img/latihan gedung.PNG" width="950px" alt=""> <br>
+        
+    </center>
+   
+        <div class="mencobalat3">1. Sudut 45° atap Gedung B adalah dinamakan sudut <input id="nomer1" type="text" class="inputkecil"> terhadap atap Gedung A <br>
+            <center><button type="button" class="btn btn-primary btn-sm" onclick="no1()">cek</button></center>
+            <div id="jawab4"></div>
+        </div><br>
+        <div class="mencobalat3">2. Sudut Elevasi Atap Gedung A adalah <input id="nomer2" type="text" class="inputkecil">&deg; terhadap atap Gedung B<br>
+        <center><button type="button" class="btn btn-primary btn-sm" onclick="no2()">cek</button></center>
+        <div id="jawab5"></div></div>
+        <br>
+        <div class="mencobalat3">3. Sudut Depresi Atap Gedung A adalah <input id="nomer3" type="text" class="inputkecil">&deg; terhadap Dasar Gedung B<br>
+        <center><button type="button" class="btn btn-primary btn-sm" onclick="no3()">cek</button></center>
+        <div id="jawab6"></div></div>
+        <br>
+        <div class="mencobalat3">4.	Panjang jembatan penghubung adalah <input id="nomer4" type="text" class="inputkecil"><br>
+        <center><button type="button" class="btn btn-primary btn-sm" onclick="no4()">cek</button></center>
+        <div id="jawab7"></div></div>
+        <br>
+        <div class="mencobalat3">5. Tinggi Gedung A adalah <input id="nomer5" type="text" class="inputkecil"> meter<br>
+        <center><button type="button" class="btn btn-primary btn-sm" onclick="no5()">cek</button></center>
+        <div id="jawab8"></div></div>
+        <br>
+        <div class="mencobalat3">6. Tinggi gedung B adalah <input id="nomer6" type="text" class="inputkecil"> meter<br>
+        <center><button type="button" class="btn btn-primary btn-sm" onclick="no6()">cek</button></center>
+        <div id="jawab9"></div></div>
+
+
+        
+    </p>
+ </div>
+    </div>
+  </div> 
+</div>
+</section>
+</body>
+<footer>
+
+  <div class="dot-container">
+    
+    <a href="1.4.html" class="previous"><b> &laquo; Sebelumnya</b></a>
+
+    <a  href="1.1.html" class="dot">1</a> 
+    <a  href="1.2.html" class="dot">2</a>
+    <a  href="1.lat 1.html" class="dot">3</a>
+    <a  href="1.3.html" class="dot">4</a>
+    <a  href="1.4.html" class="dot">5</a>
+    <a  href="1.lat 3.html" class="dot active">6</a>
+    <a  href="1.kuis1.html" class="dot">7</a>
+
+    <a href="1.kuis1.html" class="next"><b> Selanjutnya &raquo;</b></a>
+  </div>     
+
+</footer>
+
+<script src="1.latihan1.js"></script>
+<script src="jvsript.js"></script>
+<script src="jquery/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="asset/accord.js"></script>
+<script src="script.js"> </script>
+  
+</script>
+</html>

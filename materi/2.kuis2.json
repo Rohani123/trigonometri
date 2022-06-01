@@ -1,0 +1,112 @@
+[
+    {
+        "soal0": {
+            "soal": "<img src='../img/kuadran soal1.PNG'>",
+            "a": "$$ -0,305 $$",
+            "b": "$$ -0,300 $$",
+            "c": "$$ -0,317 $$",
+            "d": "$$ -0,306 $$",
+            "e": "$$ -0,311 $$",
+            "benar": "a"
+        }
+    },
+    {
+        "soal1": {
+            "soal": "<img src='../img/kuadran soal2.PNG'>",
+            "a": "$$cos \\ 70^\\circ$$",
+            "b": "$$sin \\ 70^\\circ$$",
+            "c": "$$-sin \\ 70^\\circ$$",
+            "d": "$$-cos \\ 70^\\circ$$",
+            "e": "$$tan \\ 70^\\circ$$",
+            "benar": "a"
+        }
+    },
+    {
+        "soal2": {
+            "soal": "<img src='../img/kuadran soal3.PNG'>",
+            "a": "$$tan \\space 3^\\circ$$",
+            "b": "$$tan \\space 6^\\circ$$",
+            "c": "$$-tan \\space 3^\\circ$$",
+            "d": "$$-tan \\space 6^\\circ$$",
+            "e": "$$cot \\space (-3^\\circ)$$",
+            "benar": "a"
+        }
+    },
+    {
+        "soal3": {
+            "soal": "<img src='../img/kuadran soal4.PNG'>",
+            "a": "$$tan \\space 180^\\circ$$",
+            "b": "$$cos \\space 90^\\circ$$",
+            "c": "$$sin \\space 60^\\circ$$",
+            "d": "$$tan \\space 340^\\circ$$",
+            "e": "$$tan \\space 45^\\circ$$",
+            "benar": "d"
+        }
+    },
+    {
+        "soal4": {
+            "soal": "<img src='../img/kuadran soal5.PNG'>",
+            "a": "$$\\frac{\\sqrt{3}}{4}$$",
+            "b": "$$\\frac{\\sqrt{3}}{3}$$",
+            "c": "$$\\frac{\\sqrt{3}}{2}$$",
+            "d": "$$\\frac{2}{3}\\sqrt{3}$$",
+            "e": "$$\\frac{3}{4}\\sqrt{3}$$",
+            "benar": "a"
+        }
+    },
+    {
+        "soal5": {
+            "soal": "<img src='../img/kuadran soal6.PNG'>",
+            "a": "$$-cos \\space 73^\\circ$$",
+            "b": "$$-cos \\space 17^\\circ$$",
+            "c": "$$cos \\space 17^\\circ$$",
+            "d": "$$cos \\space 27^\\circ$$",
+            "e": "$$cos \\space 73^\\circ$$",
+            "benar": "a"
+        }
+    },
+    {
+        "soal6": {
+            "soal": "<img src='../img/kuadran soal7.PNG'>",
+            "a": "$$\\frac{1}{6}\\sqrt{3}-2$$",
+            "b": "$$2-\\frac{1}{6}\\sqrt{3}$$",
+            "c": "$$2-\\frac{1}{2}\\sqrt{3}$$",
+            "d": "$$\\frac{1}{2}\\sqrt{3}+2$$",
+            "e": "$$2\\sqrt{3}+2$$",
+            "benar": "c"
+        }
+    },
+    {
+        "soal7": {
+            "soal": "<img src='../img/kuadran soal8.PNG'>",
+            "a": "Kuadran yang semuanya positinya adalah kuadran",
+            "b": "Untuk sin dan sec jika berada di kuadran II maka positif",
+            "c": "Sudut lancip adalah sudut yang kurang dari 90°",
+            "d": "Sudut siku-siku adalah sudut 90°",
+            "e": "Sin 200° berada di kuadran IV ",
+            "benar": "e"
+        }
+    },
+    {
+        "soal8": {
+            "soal": "<img src='../img/kuadran soal9.PNG'>",
+            "a": "40°",
+            "b": "180°",
+            "c": "30°",
+            "d": "50°",
+            "e": "90°",
+            "benar": "d"
+        }
+    },
+    {
+        "soal9": {
+            "soal": "<img src='../img/kuadran soal10.PNG'>",
+            "a": "$$sin \\space 15^\\circ$$",
+            "b": "$$cos \\space 13^\\circ$$",
+            "c": "$$sin \\space 13^\\circ$$",
+            "d": "$$-cos \\space 13^\\circ$$",
+            "e": "$$-sin \\space 13^\\circ$$",
+            "benar": "e"
+        }
+    }
+]

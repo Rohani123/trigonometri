@@ -1,0 +1,213 @@
+<html>
+<head>
+<title>1</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="home.css" rel="stylesheet" type="text/css" media="screen" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+<!-- Custom fonts for this template-->
+<link href="../assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+<link
+    href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+    rel="stylesheet">
+
+<!-- Custom styles for this template-->
+<link href="../assets/css/sb-admin-2.min.css" rel="stylesheet">
+<link href="../assets/css/style.css" rel="stylesheet">
+</head>
+<body>
+
+  <header> 
+    <div class="headermenu">
+      <center>&nbsp;&nbsp;&nbsp;&nbsp;T R I G O N O M E T R I I </center>
+      </div>
+  
+
+     </header>
+  
+     <section>
+      <a  href="index.html" class="index">Halaman Utama</a>
+      <nav>
+        <div class="list">Daftar Materi</div>
+        <div class="button-nav">
+          <button class="dropbtn dropdown-btn" button onclick="location.href='0.pengenalan.html'">MENGENAL TRIGONOMETRI</button>
+        
+          <button class="dropbutton dropdown-btn aktif" onclick="ftampil()">1. PERBANDINGAN TRIGONOMETRI
+            <i class="fa fa-caret-down"></i>
+          </button>
+    
+          <div class="dropdown-content dropdown-containerr">
+            <a href="1.1.html" class="hvr">MATERI</a>
+            <a href="../kuis1/kuis1awal.html">Kuis</a>
+          </div>
+    
+      
+          
+           <button class="dropbtn dropdown-btn" onclick="ftampil()">2. IDENTITAS TRIGONOMETRI
+              <i class="fa fa-caret-down"></i>
+          </button>
+    
+           <div class="dropdown-content dropdown-container">
+             <a href="sumbuxy.html">MATERI</a>
+             <a href="rangkuman2.html">Rangkuman</a>
+             <a href="../kuis2/kuis2.html">Kuis</a>
+             
+            </div>
+          
+     
+        
+            <button class="dropbtn dropdown-btn" onclick="ftampil()">3. PERBANDINGAN TRIGONOMETRI SUDUT BERELASI
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content dropdown-container">
+              <a href="sejajar.html">MATERI</a>
+              <a href="rangkuman3.html">Rangkuman</a>
+              <a href="../kuis3/kuis3.html">Kuis</a>
+            </div>
+  
+  
+  
+            <button class="dropbtn dropdown-btn" onclick="ftampil()">4. GRAFIK FUNGSI SINUS, KOSINUS, dan TANGEN
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content dropdown-container">
+              <a href="sejajar.html">MATERI</a>
+              <a href="rangkuman3.html">Rangkuman</a>
+              <a href="../kuis3/kuis3.html">Kuis</a>
+            </div>
+  
+    
+          <button class="button" button onclick="location.href='../evaluasi/evaluasi.html'">Evaluasi</button>
+        </div>
+      </nav>
+  
+
+  <div class="Isi-Kiri1">
+    <div class="subsection">
+      3. Perbandingan Trigonometri Sudut Berelasi
+    </div>
+    <div class="konten3">
+      <table style="width: 100%; color:black">
+        <tr class="text-center color:black">
+            <td><b>Fungsi Trigonometri</b></td>
+            <td><b>Kuadran I</b></td>
+            <td><b>Kuadran II</b></td>
+            <td><b>Kuadran III</b></td>
+            <td><b>Kuadran IV</b></td>
+            
+        </tr>
+        <tr style="width: 34%;">
+          <div class="kotakDrag2" ondrop="drop(event)" ondragover="allowDrop(event)">
+              <span id="setrika" class="badge badge-secondary m-1" style="font-size: 18px;" draggable="true" ondragstart="drag(event)">Setrika listrik</span>
+              <span id="kipas" class="badge badge-secondary m-1" style="font-size: 18px;" draggable="true" ondragstart="drag(event)">Kipas angin</span>
+              <span id="neon" class="badge badge-secondary m-1" style="font-size: 18px;" draggable="true" ondragstart="drag(event)">Lampu neon</span>
+              <span id="pijar" class="badge badge-secondary m-1" style="font-size: 18px;" draggable="true" ondragstart="drag(event)">Lampu pijar</span>
+              <span id="solder" class="badge badge-secondary m-1" style="font-size: 18px;" draggable="true" ondragstart="drag(event)">Solder listrik</span>
+              <span id="pemanas" class="badge badge-secondary m-1" style="font-size: 18px;" draggable="true" ondragstart="drag(event)">Pemanas air</span>
+          </div>
+      </tr>
+        <tr>
+          <td><b>Sinus</b></td>
+          <td style="width: 15%;">
+            <div id="tarik" class="kotakDrag" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        </td>
+        <td style="width: 15%;">
+          <div id="tarik" class="kotakDrag" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        </td>
+        <td style="width: 15%;">
+          <div id="tarik" class="kotakDrag" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+       </td>
+       <td style="width: 15%;">
+        <div id="tarik" class="kotakDrag" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+      </td>
+        </tr>
+      
+        <tr>
+          <td><b>Kosinus</b></td>
+          <td style="width: 15%;">
+            <div id="tarik" class="kotakDrag" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        </td>
+        <td style="width: 15%;">
+          <div id="tarik" class="kotakDrag" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        </td>
+        <td style="width: 15%;">
+          <div id="tarik" class="kotakDrag" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+       </td>
+       <td style="width: 15%;">
+        <div id="tarik" class="kotakDrag" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+      </td>
+        </tr>
+
+        <tr>
+          <td><b>Tangen</b></td>
+          <td style="width: 15%;">
+            <div id="tarik" class="kotakDrag" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        </td>
+        <td style="width: 15%;">
+          <div id="tarik" class="kotakDrag" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        </td>
+        <td style="width: 15%;">
+          <div id="tarik" class="kotakDrag" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+       </td>
+       <td style="width: 15%;">
+        <div id="tarik" class="kotakDrag" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+      </td>
+        </tr>  
+
+    </table>
+    <a id="cekKel" onclick="cekKel()" class="badge badge-primary mt-2" style="font-size: 18px; cursor: pointer;">Cek Jawaban</a>
+    <div id="jawabKel"></div>
+
+ </div>
+</div>
+</section>	
+</body>
+<footer>
+
+  <div class="dot-container">
+    
+    <a href="1.1.html" class="previous">&laquo; Sebelumnya</a>
+
+
+      <a  href="1.1.html" class="dot">1</a> 
+      <a  href="1.2.html" class="dot">2</a>
+      <a  href="1.3.1.html" class="dot">3</a>
+      <a  href="1.4.html" class="dot">4</a>
+      <a  href="1.5.html" class="dot">5</a>
+      <a  href="1.6.html" class="dot">6</a>
+  
+
+    <a href="1.3.html" class="next">Selanjutnya &raquo;</a>
+  </div>     
+</footer>
+<script src="jvsript.js"></script>
+<script src="jquery/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="asset/accord.js"></script>
+<script src="script.js"> </script>
+<script src="../assets/vendor/jquery/jquery.min.js"></script>
+<script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- Core plugin JavaScript-->
+<script src="../assets/vendor/jquery-easing/jquery.easing.min.js"></script>
+
+<!-- Custom scripts for all pages-->
+<script src="../assets/js/sb-admin-2.min.js"></script>
+
+<!-- Page level plugins -->
+<script src="../assets/vendor/chart.js/Chart.min.js"></script>
+
+<!-- Page level custom scripts -->
+<script src="../assets/js/demo/chart-area-demo.js"></script>
+<script src="../assets/js/demo/chart-pie-demo.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-database.js"></script>
+
+ 
+
+</html>

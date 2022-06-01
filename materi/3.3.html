@@ -1,0 +1,212 @@
+<html>
+<head>
+<title>1</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="home.css" rel="stylesheet" type="text/css" media="screen" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+<!-- Custom fonts for this template-->
+<link href="../assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+<link
+    href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+    rel="stylesheet">
+
+<!-- Custom styles for this template-->
+<!-- <link href="../assets/css/sb-admin-2.min.css" rel="stylesheet"> -->
+<link href="../assets/css/style.css" rel="stylesheet">
+</head>
+<body>
+
+  <header> 
+    <div class="headermenu">
+      <center>&nbsp;&nbsp;&nbsp;&nbsp;T R I G O N O M E T R I I </center>
+      </div>
+  
+
+     </header>
+  
+     <section>
+      <center><a  href="../index.html">Halaman Utama</a></center>
+      <nav>
+        <div class="list">Daftar Materi</div>
+        <div class="button-nav">
+          <button class="dropbtn dropdown-btn" button onclick="location.href='0.pengenalan.html'">MENGENAL TRIGONOMETRI</button>
+        
+          <button class="dropbtn dropdown-btn" onclick="ftampil()">1. PERBANDINGAN TRIGONOMETRI
+            <i class="fa fa-caret-down"></i>
+          </button>
+    
+          <div class="dropdown-content dropdown-container">
+            <a href="1.1.html">MATERI</a>
+            <a href="1.kuis1.html">Kuis</a>
+          </div>
+             
+        
+            <button class="dropbtn dropdown-btn" onclick="ftampil()">2. PERBANDINGAN TRIGONOMETRI SUDUT BERELASI
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content dropdown-container">
+              <a href="2.1.html">MATERI</a>
+              <a href="2.kuis2.html">Kuis</a>
+            </div>
+  
+  
+  
+            <button class="dropbutton dropdown-btn aktif" onclick="ftampil()">3. GRAFIK FUNGSI SINUS, KOSINUS, dan TANGEN
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content dropdown-containerr">
+              <a href="3.1.html"  class="hvr">MATERI</a>
+              <a href="3.kuis3.html">Kuis</a>
+            </div>
+  
+    
+          <button class="button" button onclick="location.href='evaluasi.html'">Evaluasi</button>
+        </div>
+      </nav>
+
+  <div class="Isi-Kirimencoba">
+    <div class="subsection">
+      3. Perbandingan Trigonometri Sudut Berelasi
+    </div>
+
+ 
+    <br>
+    
+
+    <div class="container">
+    <h3>Mari Berlatih</h3>
+              <!-- <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#petunjuk">petujuk</button>
+          <div id="petunjuk" class="collapse"> -->
+            <div id="penyelesaian1" class="petunjuk11">
+                <p>petunjuk:</p>
+      
+                  1. lihatlah setiap identitas dibawah ini. lalu kerjakan! <br>
+                  2. Pada perintah dibawah ini jika pembuktian benar maka tulislah Benar, jika salah maka tulislah salah <br>
+                  3. Jika semua sudah diisi maka cek lah jawaban kalian <br>
+                  4. lalu jika ada yang salah maka akan terlihat jawaban yang benar.
+                  </div> <br><br>
+                  <!-- </div> -->
+  <div class="konten">
+      <!-- Nav tabs -->
+      <ul class="nav nav-tabs" role="tablist">
+        <li class="nav-item">
+          <a class="nav-link active" data-toggle="tab" href="#mencoba1">Latihan 1</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="tab" href="#mencoba2">Latihan 2</a>
+        </li>
+        <!-- <li class="nav-item">
+          <a class="nav-link" data-toggle="tab" href="#mencoba3">Mencoba 3</a>
+        </li> -->
+      </ul>
+    
+      <!-- Tab panes -->
+      <div class="tab-content">
+        <div id="mencoba1" class="container tab-pane active" style="background-color:white;"><br>
+          <h5>Perhatikan gambar dibawah ini! Lihat lah garis gelombang yang berwarna orens.</h5>
+          <center><img src="../img/latihan grafik 1.PNG" width="600" height="450"></center><br>
+          <h5>Isilah kotak jawaban dengan jawaban yang sesuai dengan gambar di atas.</h5>
+           <br>
+          <h5>&nbsp;&nbsp;&nbsp;Amplitudo = <input class="inputkecil" id="coba1" type="text"><button type="button" class="btn btn-primary btn-sm" id="myFunction" onclick="myFunction()">cek</button></h5>   
+          <div id="jawaban"></div>  
+          <h5>&nbsp;&nbsp;&nbsp;Periode = <input class="inputkecil" id="coba2" name="coba2" type="text">&deg;<button type="button" class="btn btn-primary btn-sm" id="Functiontwo" onclick="Functiontwo()">cek</button></h5>   
+          <div id="jawabantwo"></div> 
+          <h5>&nbsp;&nbsp;&nbsp;Pergeseran Horizontal = <input class="inputkecil" id="coba3" name="coba3" type="text">&deg;<button type="button" class="btn btn-primary btn-sm" id="Functionthree" onclick="Functionthree()">cek</button></h5>   
+          <div id="jawabanthree"></div>  
+          <h5>&nbsp;&nbsp;&nbsp;Pergeseran Vertikal = <input class="inputkecil" id="coba4" name="coba4" type="text"><button type="button" class="btn btn-primary btn-sm" id="Functionfour" onclick="Functionfour()">cek</button></h5>   
+          <div id="jawabanfour"></div>   
+        </div>
+
+
+        <div id="mencoba2" class="container tab-pane fade" style="background-color: white;"><br>
+            <h5>Perhatikan persamaan dibawah ini!</h5>
+            <center> <h3>\(2 \space sin \left (x \space + \space \frac{&pi;}{2} \right )+1 \)</h3></center>
+            <h5>&nbsp;&nbsp;&nbsp;Amplitudo = <input class="inputkecil" id="coba5" name="coba5" type="text"><button type="button" class="btn btn-primary btn-sm" id="Functionfive" onclick="Functionfive()">cek</button></h5>   
+            <div id="jawabanfive"></div>  
+            <h5>&nbsp;&nbsp;&nbsp;Periode = <input class="inputkecil" id="coba6" name="coba6" type="text">&deg;<button type="button" class="btn btn-primary btn-sm" id="Functionsix" onclick="Functionsix()">cek</button></h5>   
+            <div id="jawabansix"></div> 
+            <h5>&nbsp;&nbsp;&nbsp;Pergeseran Horizontal = <input class="inputkecil" id="coba7" name="coba7" type="text">&deg;<button type="button" class="btn btn-primary btn-sm" id="Functionseven" onclick="Functionseven()">cek</button></h5>   
+            <div id="jawabanseven"></div>  
+            <h5>&nbsp;&nbsp;&nbsp;Pergeseran Vertikal = <input class="inputkecil" id="coba8" name="coba8" type="text"><button type="button" class="btn btn-primary btn-sm" id="Functioneight" onclick="Functioneight()">cek</button></h5>   
+            <div id="jawabaneight"></div>  
+          </div>
+        <!-- </div> -->
+
+
+        <!-- <div id="mencoba3" class="container tab-pane fade"><br>
+          <h5>Perhatikan gambar dibawah ini!</h5>
+           <center><img src="../img/latihan grafik 1.PNG" width="600" height="450"></center> <br> 
+         <center> <h3>\(2 \space sin \left (x \space + \space \frac{&pi;}{2} \right ) \)</h3></center>
+          <h5>&nbsp;&nbsp;&nbsp;Amplitudo = <input class="inputkecil" id="coba1" name="coba1" type="text"><button type="button" class="btn btn-primary btn-sm" id="myFunction" onclick="myFunction()">cek</button></h5>   
+          <div id="jawaban"></div>  
+          <h5>&nbsp;&nbsp;&nbsp;Periode = <input class="inputkecil" id="coba2" name="coba2" type="text"><button type="button" class="btn btn-primary btn-sm" id="Functiontwo" onclick="Functiontwo()">cek</button></h5>   
+          <div id="jawabantwo"></div> 
+          <h5>&nbsp;&nbsp;&nbsp;Pergeseran Horizontal = <input class="inputkecil" id="coba3" name="coba3" type="text"><button type="button" class="btn btn-primary btn-sm" id="Functionthree" onclick="Functionthree()">cek</button></h5>   
+          <div id="jawabanthree"></div>  
+          <h5>&nbsp;&nbsp;&nbsp;Pergeseran Vertikal = <input class="inputkecil" id="coba4" name="coba4" type="text"><button type="button" class="btn btn-primary btn-sm" id="Functionfour" onclick="Functionfour()">cek</button></h5>   
+          <div id="jawabanfour"></div>  
+        </div> -->
+      </div>
+
+    </div>
+    
+
+       
+ </div>
+</div>
+</section>	
+</body>
+<footer>
+
+  <div class="dot-container">
+    
+    <a href="3.2.1.html" class="previous"><b> &laquo; Sebelumnya</b></a>
+
+    <a  href="3.1.html" class="dot">1</a> 
+    <a  href="3.2.1.html" class="dot">2</a>
+    <a  href="3.3.html" class="dot active">3</a>
+    <a  href="3.kuis3.html" class="dot">4</a>
+
+
+
+    <a href="3.kuis3.html" class="next"><b> Selanjutnya &raquo;</b></a>
+  </div>     
+</footer>
+<script src="jvsript.js"></script>
+<script src="3.latihan.js"></script>
+<script src="jquery/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="asset/accord.js"></script>
+<script src="script.js"> </script>
+<script src="../assets/vendor/jquery/jquery.min.js"></script>
+<script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- Core plugin JavaScript-->
+<script src="../assets/vendor/jquery-easing/jquery.easing.min.js"></script>
+
+<!-- Custom scripts for all pages-->
+<script src="../assets/js/sb-admin-2.min.js"></script>
+
+<!-- Page level plugins -->
+<script src="../assets/vendor/chart.js/Chart.min.js"></script>
+
+<!-- Page level custom scripts -->
+<script src="../assets/js/demo/chart-area-demo.js"></script>
+<script src="../assets/js/demo/chart-pie-demo.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-database.js"></script>
+<script src="https://files.liveworksheets.com/embed/embed.js"></script>
+<script language="javascript">
+loadliveworksheet(2792595,'axunrgoa',1413,'www',3309182);
+</script>
+	
+
+ 
+
+</html>

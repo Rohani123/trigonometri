@@ -1,0 +1,196 @@
+body{
+    background-image: url("img/gambar1.png");
+    background-position: center;
+    font-size: 14px;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family:"Museo Sulab 500", impact, arial, sans-serif;
+    font-weight: normal;
+}
+#wrapper{
+    widows: 100%;
+    margin:0 auto;
+    overflow: hidden;
+}
+#header{
+    background:hotpink;
+    height: 60px;
+    width: 100%;
+    border-bottom: 5px dashed black;
+}
+#logo{
+    font-family:"Museo Slab 500", impact, sans-serif;
+    float:left;
+    font-size:40px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+#menu{
+    float: right;
+    list-style: none;
+    margin-top: 20px;
+    margin-right: 40px;
+    font-size: 20px;
+}
+#menu li{
+    display: inline;
+}
+#menu li a{
+    padding: 5px 10px;
+    border-right: 1px dashed black;
+    text-decoration: none;
+    color: black;
+}
+#menu li:last-child a{
+    border-right: none;
+}
+#materi{
+    overflow: hidden;
+    background:lightpink;
+    height: 520px;
+    margin: 2px 0;
+}
+#materi h2{
+    font-family :Berlin Sans FB;
+    font-size: 30px;
+    padding: 10px;
+    text-align: center;
+}
+#materi .kolom{
+    width: 220px;
+    margin: 100px;
+    padding: 0 30px 0 0;
+    float: left;
+    background:lightpink;
+}
+#footer{
+    border-top:2px dashed #aeb59c;
+    padding:10px;
+    background:slategray ;
+}
+#footer p{
+    color: #eaeaea;
+    text-align: center;
+    font-size: 12px;
+    font-family: Courier;
+}
+
+#footermateri{
+    border-top:2px dashed #aeb59c;
+    padding:10px;
+    background:slategray ;
+    height: 12px;
+    border-bottom:2px dashed #aeb59c;
+}
+
+#footermateri li{
+    display: inline;
+}
+#footermateri li a{
+    float: right;
+    margin-right: 50px;
+    padding: 3px 10px;
+    border: 1px dashed black;
+    text-decoration: none;
+    color:white;
+}
+#bahan{
+        overflow: hidden;
+        background:lightpink;
+        height: 520px;
+        margin: 2px 0
+}
+.sslidebar{
+    margin-left: 3px;
+    padding: 15px;
+    width: 230px;
+    height: 480px;
+    background-color:lightpink;
+    border: 3px dashed black 
+
+}
+
+.sslidebar{
+  float: left;
+}
+
+.nav-menu{
+    width: 250px;
+    margin-top:-10px;
+    margin-left: -10px;
+    font-family:Berlin Sans FB;
+}
+
+.nav-menu a{
+text-transform: uppercase;
+letter-spacing: .2es;
+color:black;
+display: block;
+padding: 10px 0 10px 5px;
+border-bottom: 1px solid black;
+text-decoration: none;
+min-height: 30px;
+
+}
+
+.nav-menu a:hover{
+    background-color:pink;
+}
+
+.nav-ul ul{
+    display: none;
+}
+
+.nav-menu .aktif1{
+    color:white;
+}
+
+.nav-ul li:hover ul{
+    display: block;
+    margin-left: 0px;
+}
+
+.nav-menu .tombol-nav:after{
+    content: '\203A';
+    float: right;
+    margin-right: 10px;
+    transform: rotate(90deg);
+}
+
+.nav-menu li:hover .tombol-nav:after{
+    content: '\2039';
+}
+
+.nav-ul ul a::before{
+    content: '\203A';
+    margin-right: 5px;
+}
+
+.nav-ul h5{
+    text-align: center;
+    font-size: 25px;
+    font-family: Berlin Sans FB;
+}
+
+.tampil {
+	background-color: pink;
+	color: black;
+	cursor: pointer;
+	padding: 18px;
+	border: none;
+	text-align: left;
+	outline: none;
+	width: fit-content;
+	/* font-size: 20px; */
+}
+
+.dalam {
+	padding-top: -5px;
+	padding: 15px;
+	overflow: hidden;
+	border-radius: 10px;
+	width: fit-content;
+	border: 3px solid pink;
+	margin-bottom: 10px;
+	margin-top: -10px;
+}

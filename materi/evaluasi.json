@@ -1,0 +1,281 @@
+[
+    {
+        "soal0": {
+            "soal": "Perhatikan gambar dibawah ini! <br> <img src='../img/ev1.PNG'> <br> Segitiga ABC siku-siku di C. Pernyataan berikut ini yang benar, kecuali .  .  .  .",
+            "a": "$$sin \\space 𝛼 = \\frac{BC}{AB}$$",
+            "b": "$$sin \\space 𝛽 = \\frac{AC}{AB}$$",
+            "c": "$$cos \\space 𝛼 = \\frac{AC}{AB}$$",
+            "d": "$$cos \\space 𝛽 = \\frac{BC}{AC}$$ ",
+            "e": "$$tan \\space 𝛽 = \\frac{BC}{AC}$$",
+            "benar": "d"
+        }
+    },
+    {
+        "soal1": {
+            "soal": "<img src='../img/ev2.PNG'> ",
+            "a": "1",
+            "b": "1,33 ",
+            "c": "1,55",
+            "d": "2,45",
+            "e": "4,5",
+            "benar": "b"
+        }
+    },
+    {
+        "soal2": {
+            "soal": "<img src='../img/ev3.PNG'>",
+            "a": "$$\\frac{7}{24}$$ dan $$\\frac{25}{24}$$ ",
+            "b": "$$\\frac{24}{25}$$ dan $$\\frac{7}{25}$$",
+            "c": "$$\\frac{7}{24}$$ dan $$\\frac{24}{25}$$",
+            "d": "$$\\frac{25}{24}$$ dan $$\\frac{7}{24}$$",
+            "e": "$$\\frac{7}{24}$$ dan $$\\frac{7}{25}$$",
+            "benar": "a"
+        }
+    },
+    {
+        "soal3": {
+            "soal": "<img src='../img/ev4.PNG'>",
+            "a": "$$\\frac{12}{13}$$",
+            "b": "$$\\frac{12}{5}$$ ",
+            "c": "$$\\frac{13}{5}$$",
+            "d": "$$\\frac{13}{12}$$",
+            "e": "$$\\frac{5}{12}$$",
+            "benar": "b"
+        }
+    },
+    {
+        "soal4": {
+            "soal": "<img src='../img/ev5.PNG'>",
+            "a": "51,5 meter",
+            "b": "35,6 meter",
+            "c": "123,6 meter",
+            "d": "88,2 meter ",
+            "e": "86 meter",
+            "benar": "d"
+        }
+    },
+    {
+        "soal5": {
+            "soal": "Pehatikan gambar  berikut ini <br><img src='../img/ev6.PNG'> <br> Panjang sisi PR adalah .  .  .  . cm",
+            "a": "$$11\\sqrt{2}$$",
+            "b": "$$10$$",
+            "c": "$$11$$",
+            "d": "$$10\\sqrt{2}$$ ",
+            "e": "$$12$$",
+            "benar": "d"
+        }
+    },
+    {
+        "soal6": {
+            "soal": "<img src='../img/ev7.PNG'>",
+            "a": "$$\\frac{3}{5}$$ ",
+            "b": "$$\\frac{4}{5}$$ ",
+            "c": "$$\\frac{6}{5}$$",
+            "d": "$$\\frac{5}{3}$$",
+            "e": "$$\\frac{5}{4}$$",
+            "benar": "a"
+        }
+    },
+    {
+        "soal7": {
+            "soal": "<img src='../img/ev8.PNG'>",
+            "a": "$$\\frac{1}{2}\\sqrt{2}$$ ",
+            "b": "$$\\frac{1}{2}$$ ",
+            "c": "$$\\frac{1}{2}\\sqrt{3}$$",
+            "d": "$$\\frac{1}{3}\\sqrt{2}$$",
+            "e": "$$1$$",
+            "benar": "a"
+        }
+    },
+    {
+        "soal8": {
+            "soal": "<img src='../img/ev9.PNG'>",
+            "a": "$$-\\frac{1}{2}\\sqrt{2}$$",
+            "b": "$$-\\frac{1}{2}$$ ",
+            "c": "$$-\\frac{1}{2}\\sqrt{3}$$ ",
+            "d": "$$-\\frac{1}{3}\\sqrt{2}$$",
+            "e": "$$-1$$",
+            "benar": "c"
+        }
+    },
+    {
+        "soal9": {
+            "soal": "<img src='../img/ev10.PNG'>",
+            "a": "$$-\\frac{1}{2}\\sqrt{2}$$",
+            "b": "$$-\\frac{1}{2}$$ ",
+            "c": "$$-\\frac{1}{2}\\sqrt{3}$$",
+            "d": "$$-\\frac{1}{3}\\sqrt{2}$$ ",
+            "e": "$$-1$$",
+            "benar": "e"
+        }
+    },
+    {
+        "soal10": {
+            "soal": "<img src='../img/ev11.PNG'>",
+            "a": "$$\\frac{1}{2}$$",
+            "b": "$$0$$",
+            "c": "$$-1$$ ",
+            "d": "1",
+            "e": "2",
+            "benar": "c"
+        }
+    },
+    {
+        "soal11": {
+            "soal": "<img src='../img/ev12.PNG'>",
+            "a": "$$cos \\ 30 ^{\\circ}$$ ",
+            "b": "$$sin \\ 30 ^{\\circ}$$",
+            "c": "$$tan \\ 30 ^{\\circ}$$",
+            "d": "$$sec \\ 30 ^{\\circ}$$",
+            "e": "$$cot \\ 30 ^{\\circ}$$",
+            "benar": "a"
+        }
+    },
+    {
+        "soal12": {
+            "soal": "<img src='../img/ev13.PNG'>",
+            "a": "1",
+            "b": "2",
+            "c": "3",
+            "d": "$$\\frac{1}{2}$$",
+            "e": "$$-1$$ ",
+            "benar": "e"
+        }
+    },
+    {
+        "soal13": {
+            "soal": "Persamaan dari kurva di bawah ini adalah .  .  .  . <br><img src='../img/ev14.PNG'>",
+            "a": "$$2 \\space sin \\space 2x$$",
+            "b": "$$2 \\space sin \\space 3x$$",
+            "c": "$$2 \\space cos \\space 2x$$",
+            "d": "$$2 \\space cos \\space 3x$$ ",
+            "e": "$$3 \\space cos \\space 2x$$",
+            "benar": "d"
+        }
+    },
+    {
+        "soal14": {
+            "soal": "Persamaan dari kurva di bawah ini adalah .  .  .  .<br><img src='../img/ev15.PNG'>",
+            "a": "$$2 \\space sin \\space 2x$$",
+            "b": "$$2 \\space sin \\space 3x$$",
+            "c": "$$2 \\space cos \\space 2x$$ ",
+            "d": "$$2 \\space cos \\space 3x$$",
+            "e": "$$3 \\space cos \\space 2x$$",
+            "benar": "c"
+        }
+    },
+    {
+        "soal15": {
+            "soal": "Persamaan dari kurva di bawah ini adalah .  .  .  .<br><img src='../img/ev16.PNG'>",
+            "a": "$$ sin \\space 2x$$",
+            "b": "$$2 \\space sin \\space 3x$$",
+            "c": "$$sin \\space 4x$$ ",
+            "d": "$$2 \\space cos \\space 3x$$",
+            "e": "$$3 \\space cos \\space 2x$$",
+            "benar": "c"
+        }
+    },
+    {
+        "soal16": {
+            "soal": "<img src='../img/ev17.PNG'>",
+            "a": "$$140 ^{\\circ}$$",
+            "b": "$$120^{\\circ}$$ ",
+            "c": "$$180^{\\circ}$$",
+            "d": "$$240^{\\circ}$$",
+            "e": "$$360^{\\circ}$$",
+            "benar": "b"
+        }
+    },
+    {
+        "soal17": {
+            "soal": "<img src='../img/ev18.PNG'>",
+            "a": "$$80 ^{\\circ}$$",
+            "b": "$$180^{\\circ}$$",
+            "c": "$$90^{\\circ}$$ ",
+            "d": "$$240^{\\circ}$$",
+            "e": "$$360^{\\circ}$$",
+            "benar": "c"
+        }
+    },
+    {
+        "soal18": {
+            "soal": "<img src='../img/ev19.PNG'>",
+            "a": "$$-2$$",
+            "b": "$$-1$$",
+            "c": "$$0$$",
+            "d": "$$1$$",
+            "e": "$$2$$ ",
+            "benar": "e"
+        }
+    },
+    {
+        "soal19": {
+            "soal": "<img src='../img/ev20.PNG'>",
+            "a": "$$-3$$",
+            "b": "$$3$$ ",
+            "c": "$$0$$",
+            "d": "$$2$$",
+            "e": "$$-2$$",
+            "benar": "b"
+        }
+    },
+    {
+        "soal20": {
+            "soal": "<img src='../img/ev21.PNG'>",
+            "a": "$$(90 ^{\\circ}  ,  1)$$",
+            "b": "$$(90 ^{\\circ}  ,  2)$$",
+            "c": "$$(10 ^{\\circ}  ,  1)$$",
+            "d": "$$(30 ^{\\circ}  ,  1)$$",
+            "e": "$$(40 ^{\\circ}  ,  1)$$ ",
+            "benar": "e"
+        }
+    },
+    {
+        "soal21": {
+            "soal": "Perhatikan gambar di bawah ini! <br><img src='../img/ev22.PNG'> <br> Persamaan grafik fungsi di atas adalah .  .  .  .",
+            "a": "$$f(x)=\\frac{1}{2} \\space sin \\space \\space \\frac{1}{2}x$$",
+            "b": "$$f(x)=\\frac{1}{2} \\space sin \\space \\space 2x$$",
+            "c": "$$f(x)=\\frac{1}{2} \\space cos \\space \\space 2x$$ ",
+            "d": "$$f(x)=2 \\space cos  \\space \\frac{1}{2}x$$",
+            "e": "$$f(x)=2 \\space cos \\space 2x$$",
+            "benar": "c"
+        }
+    },
+    {
+        "soal22": {
+            "soal": "Grafik fungsi berikut adalah sketsa grafik dari 𝑦 = 𝑎 cos⁡𝑏𝑥. Nilai a dan b berturut turut adalah .  .  .  .<br><img src='../img/ev23.PNG'>",
+            "a": "-2 dan 1 ",
+            "b": "-2 dan 2",
+            "c": "2 dan 2",
+            "d": "2 dan 1",
+            "e": "2 dan -1",
+            "benar": "a"
+        }
+    },
+    {
+        "soal23": {
+            "soal": "<img src='../img/ev24.PNG'>",
+            "a": "$$0^{\\circ}$$ dan $$180^{\\circ}$$ ",
+            "b": "$$30^{\\circ}$$ dan $$120^{\\circ}$$",
+            "c": "$$45^{\\circ}$$ dan $$135^{\\circ}$$",
+            "d": "$$60^{\\circ}$$ dan $$150^{\\circ}$$",
+            "e": "$$90^{\\circ}$$ dan $$180^{\\circ}$$",
+            "benar": "a"
+        }
+    },
+    {
+        "soal24": {
+            "soal": "<img src='../img/kuis1.6.PNG'>",
+            "a": "7",
+            "b": "$$\\frac{7}{6}$$",
+            "c": "9 ",
+            "d": "$$\\frac{3}{4}\\sqrt{6}$$",
+            "e": "$$\\frac{2}{4}\\sqrt{6}$$",
+            "benar": "c"
+        }
+    
+ 
+    }
+
+
+]
