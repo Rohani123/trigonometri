@@ -22,8 +22,8 @@
              </header>
           
              <section>
-              <center><a  href="../index.html" >Halaman Utama</a></center>
-              <nav>
+              <center><button class="button" style="width: 23%; background-color: #46CDCF;" button onclick="location.href='../index.html'">Halaman Utama</button></center>
+            <nav>
                 <div class="list">Daftar Materi</div>
                 <div class="button-nav">
                   <button class="dropbtn dropdown-btn" button onclick="location.href='0.pengenalan.html'">MENGENAL TRIGONOMETRI</button>
@@ -60,14 +60,14 @@
                     </div>
           
             
-                  <button class="button" button onclick="location.href='evaluasi.html'">Evaluasi</button>
+                    <button class="dropbtn dropdown-btn" button onclick="location.href='evaluasi.html'">EVALUASI</button>
                 </div>
               </nav>
       
     
       <div class="Isi-Kiri1">
         <div class="subsection">
-          1. Perbandingan Trigonometri
+          <h3 style="color: white;"> 1. Perbandingan Trigonometri</h3>
         </div>
         
         <div class="konten33">   
@@ -84,7 +84,7 @@
            <button  type="button" class="btn btn-primary btn-sm active" button onclick="location.href='1.lat 2.html'">2</button>
           
             
-           <div class="mengamati1">
+           <div class="mengamati1lat">
               <!-- <img src="../img/Atap1.jpg"   width="400" height="450" style="float:left; margin:9px"> -->
                   
                   <img src="../img/soal perbandingan 1.PNG" alt=""> <br>
@@ -146,7 +146,7 @@
 
                   <br>
                   <div class="mencoba">
-                   <center><h5> A. \(sin \space \angle DEA\) = <input id="jwb_a" type="text" class="inputkecil"> 
+                   <center><h5> A. \(sin \space \angle DEA\) = <input id="jwb_a" type="number" class="inputkecil"> 
                     <button type="button" class="btn btn-primary btn-sm" onclick="Latihan21()">cek</button>
 
                 </h5> </center> 
@@ -155,7 +155,7 @@
     
     
                   <div class="mencoba">
-                    <center><h5>B. Panjang EB = <input id="jwb_b" type="text" class="inputkecil">
+                    <center><h5>B. Panjang EB = <input id="jwb_b" type="number" class="inputkecil">
                     <button type="button" class="btn btn-primary btn-sm" onclick="Latihan22()">cek</button>
                    
                 </h5> </center>
@@ -187,11 +187,12 @@
     </body>
     <footer>
     
-      <div class="dot-container">
+      <div class="dot-container">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
         
         
-        <a href="1.1.html" class="previous"><b> &laquo; Sebelumnya</b></a>
-    
+        <button class="dropbutton" style="width: 10%; background-color: #46CDCF; border-radius: 100px;" button onclick="location.href='1.2.html'">&laquo; Sebelumnya</button>
+   
+
         <a  href="1.1.html" class="dot">1</a> 
         <a  href="1.2.html" class="dot">2</a>
         <a  href="1.lat 1.html" class="dot active">3</a>
@@ -200,7 +201,9 @@
         <a  href="1.lat 3.html" class="dot">6</a>
         <a  href="1.kuis1.html" class="dot">7</a>
     
-        <a href="1.3.html" class="next"><b> Selanjutnya &raquo;</b></a>
+        <!-- <a href="1.3.html" class="next"><b> Selanjutnya &raquo;</b></a> -->
+        <button class="dropbutton" style="width: 10%; background-color: #46CDCF; border-radius: 100px;" button onclick="location.href='1.3.html'">Selanjutnya &raquo;</button>
+    
       </div>     
     </footer>
     <script src="kalku.js"></script>

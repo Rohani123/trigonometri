@@ -21,9 +21,9 @@ function myFunction() {
         jawaban = `<div class="pembahasan mt-3 mr-3 p-3" style="background-color:red;color:white;">
                             Jawaban Anda salah <br> </div>
                             <div style="border-dotted">
-                            <img src="../img/jawaban latihan grafik 1a.PNG" alt=""> </div>
+                            <center><img src="../img/jawaban latihan grafik 1a.PNG" alt=""></center></div>
                             <br>
-                            </div>`;  
+                            <div class="pembahasan mt-3 mr-3 p-3" style="background-color:red;color:white;"></div>`;  
     }
     document.getElementById("jawaban").innerHTML = jawaban;
   }
@@ -45,8 +45,8 @@ function myFunction() {
         jawabantwo = document.getElementById('coba2');
         jawabantwo = `<div class="pembahasan mt-3 mr-3 p-3" style="background-color:red;color:white;">
                             Jawaban Anda salah <br> </div>
-                            <img src="../img/jawaban latihan grafik 1b.PNG" alt="">
-                            </div>`;  
+                            <center><img src="../img/jawaban latihan grafik 1b.PNG" alt=""></center>
+                        <div class="pembahasan mt-3 mr-3 p-3" style="background-color:red;color:white;"></div>`;  
     }
     document.getElementById("jawabantwo").innerHTML = jawabantwo;
   }
@@ -69,8 +69,8 @@ function myFunction() {
         jawabanthree = document.getElementById('coba3');
         jawabanthree = `<div class="pembahasan mt-3 mr-3 p-3" style="background-color:red;color:white;">
                             Jawaban Anda salah <br> </div>
-                            <img src="../img/jawaban latihan grafik 1c.PNG" alt="">
-                            </div>`;  
+                           <center><img src="../img/jawaban latihan grafik 1c.PNG" alt=""></center>
+                            <div class="pembahasan mt-3 mr-3 p-3" style="background-color:red;color:white;"></div>`;  
     }
     document.getElementById("jawabanthree").innerHTML = jawabanthree;
   }
@@ -92,8 +92,8 @@ function myFunction() {
         jawabanfour = document.getElementById('coba4');
         jawabanfour = `<div class="pembahasan mt-3 mr-3 p-3" style="background-color:red;color:white;">
                             Jawaban Anda salah <br> </div>
-                            <img src="../img/jawaban latihan grafik 1d.PNG" alt="">
-                            </div>`;  
+                            <center> <img src="../img/jawaban latihan grafik 1d.PNG" alt=""> </center>
+                            <div class="pembahasan mt-3 mr-3 p-3" style="background-color:red;color:white;"></div>`;  
     }
     document.getElementById("jawabanfour").innerHTML = jawabanfour;
   }
@@ -116,8 +116,8 @@ function myFunction() {
         jawabanfive = document.getElementById('coba5');
         jawabanfive = `<div class="pembahasan mt-3 mr-3 p-3" style="background-color:red;color:white;">
                         Jawaban Anda salah <br> </div>
-                        <img src="../img/jawaban latihan grafik 2a.PNG" alt="">
-                        </div>`;  
+                        <center><img src="../img/jawaban latihan grafik 2a.PNG" alt=""></center>
+                        <div class="pembahasan mt-3 mr-3 p-3" style="background-color:red;color:white;"> </div>`;  
     }
     document.getElementById("jawabanfive").innerHTML = jawabanfive;
   }
@@ -139,8 +139,8 @@ function myFunction() {
         jawabansix = document.getElementById('coba6');
         jawabansix = `<div class="pembahasan mt-3 mr-3 p-3" style="background-color:red;color:white;">
                             Jawaban Anda salah <br> </div>
-                            <img src="../img/jawaban latihan grafik 2b.PNG" alt="">
-                            </div>`;  
+                            <center><img src="../img/jawaban latihan grafik 2b.PNG" alt=""></center>
+                            <div class="pembahasan mt-3 mr-3 p-3" style="background-color:red;color:white;"></div>`;  
     }
     document.getElementById("jawabansix").innerHTML = jawabansix;
   }
@@ -161,8 +161,8 @@ function myFunction() {
         jawabanseven = document.getElementById('coba7');
         jawabanseven = `<div class="pembahasan mt-3 mr-3 p-3" style="background-color:red;color:white;">
                             Jawaban Anda salah <br> </div>
-                            <img src="../img/jawaban latihan grafik 2c.PNG" alt="">
-                            </div>`;  
+                            <center><img src="../img/jawaban latihan grafik 2c.PNG" alt=""></center>
+                            <div class="pembahasan mt-3 mr-3 p-3" style="background-color:red;color:white;"></div>`;  
     }
     document.getElementById("jawabanseven").innerHTML = jawabanseven;
   }
@@ -183,8 +183,8 @@ function myFunction() {
         jawabaneight = document.getElementById('coba8');
         jawabaneight = `<div class="pembahasan mt-3 mr-3 p-3" style="background-color:red;color:white;">
                             Jawaban Anda salah <br> </div>
-                            <img src="../img/jawaban latihan grafik 2d.PNG" alt="">
-                            </div>`;  
+                           <center><img src="../img/jawaban latihan grafik 2d.PNG" alt=""></center>
+                            <div class="pembahasan mt-3 mr-3 p-3" style="background-color:red;color:white;"></div>`;  
     }
     document.getElementById("jawabaneight").innerHTML = jawabaneight;
   }

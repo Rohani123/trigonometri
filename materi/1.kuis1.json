@@ -24,7 +24,7 @@
     },
     {
         "soal2": {
-            "soal": "Perhatikan gambar berikut!<br><img src='../img/kuis1.3.PNG'>",
+            "soal": "Perhatikan gambar berikut!<br><img src='../img/kuis1.3.PNG' width='630' height='300'>",
             "a": "50 meter",
             "b": "60 meter",
             "c": "70 meter",
@@ -35,7 +35,7 @@
     },
     {
         "soal3": {
-            "soal": "Pada gambar disampig. Titik L, M dan N adalah tiga titik pada sebidang tanah datar. Tiang bendera yag tegak berdiri di M. Diketahui LM = 70 m dan MN = 100 m.<br><img src='../img/kuis1.4.PNG'><br>Jika pada sudut elevasi puncak tiang P dari L adalah 26°. Tinggi tiang bendera Adalah . . . . ",
+            "soal": "Titik L, M dan N adalah tiga titik pada sebidang tanah datar. Tiang bendera yag tegak berdiri di M. Diketahui LM = 70 m dan MN = 100 m.<br><img src='../img/kuis1.4.PNG'><br>Jika pada sudut elevasi puncak tiang P dari L adalah 26°. Tinggi tiang bendera Adalah . . . . ",
             "a": "33",
             "b": "20",
             "c": "23,56",

@@ -20,8 +20,8 @@
 
 .mencoba{
   font-family:  Arial, sans-serif;
-	background-color:yellowgreen;
-  border: 3px solid #9ACD32;
+	background-color:#ABEDD8;
+  border: 3px solid #3D84A8;
   border-style: dashed;
   border-radius: 20px;
 	width:99%;
@@ -36,8 +36,8 @@
 }
 .mencobalat3{
   font-family:  Arial, sans-serif;
-	background-color:#f8f8c9;
-  border: 3px solid #9ACD32;
+	background-color:#ABEDD8;
+  border: 3px solid #3D84A8;
   border-style: dashed;
   border-radius: 20px;
 	width:99%;
@@ -53,8 +53,8 @@
 
 .mencobalat{
   font-family:  Arial, sans-serif;
-	background-color:rgb(223, 228, 154);
-  border: 3px solid #9ACD32;
+	background-color:#ABEDD8;
+  border: 3px solid #3D84A8;
   border-style: dashed;
   border-radius: 20px;
 	width:99%;
@@ -121,11 +121,13 @@ button.btn.btn-primary{
 }
 
 .button.btn.btn-primary.btn-sm.active{
-  background-color: yellow;
+  background-color: #ABEDD8;
 }
 
+
+
 .index{
-  background-color: #9ACD32;
+  background-color: #3D84A8;
   float: left;
   width: 23%;
 }
@@ -210,7 +212,7 @@ h4.dashed {
   padding-bottom: 10px;
 }
 .contoh{
-  background-color: rgb(233, 236, 24);
+  background-color: rgb(171, 237, 216);
   border-radius: 10px;
   width: 15%;
   height: 2%;
@@ -229,11 +231,11 @@ h4.dashed {
 
 /* warna nav container ul */
 ul.nav.nav-tabs{
-  background-color: #90EE90;
+  background-color: #46CDCF;
 }
 /* halaman 1.3 */
 ul.nav.nav-pills{
-  background-color: #90EE90;
+  background-color: #46CDCF;
 }
 div#home.container.tab-pane.active{
   background-color: whitesmoke;
@@ -257,7 +259,7 @@ div#home.container.tab-pane.active{
 /* Penyelesaian */
 .penyelesaian{
   position: relative;
-  background: whitesmoke;
+  background: white;
   padding: 10px;
   height: auto;
   font-family: Arial, sans-serif;
@@ -292,8 +294,9 @@ div#elevasi.collapse.show{
 }
 
 a.nav-link{
-  background: rgb(24, 228, 184);
-  border: 2px solid #90EE90;
+  background: #3D84A8;
+  border: 2px solid white;
+  border-radius: 9%;
   margin-left: 10px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -305,13 +308,13 @@ a.nav-link{
 	height:30px;
   margin-top: 0px;  
 	/*ini gasan warna background diatas (header)*/
-	background-color:#9ACD32;
+	background-color:#3D84A8;
   font-size: 20 px;
   font-family: "Space Mono", monospace;
 	
 }
 footer {
-  background-color: #9ACD32;
+  background-color: #3D84A8;
   font-family: Georgia, 'Times New Roman', Times, serif;
   text-align: left;
   text-decoration: none;
@@ -325,7 +328,7 @@ footer {
 
 }
 footer1 {
-  background-color: #9ACD32;
+  background-color: #3D84A8;
   font-family: Georgia, 'Times New Roman', Times, serif;
   text-align: left;
   text-decoration: none;
@@ -498,19 +501,34 @@ body {
 .konten3{
   background-color:white;
 	width:100%;
-	height:530px;
+	height:502px;
 	padding-left:30px;
   padding-right: 30px;
   padding-top: 10px;
 	overflow:scroll;
   text-align: justify;
-	font-family: 'Poppins', sans-serif;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 18px;
 }
+.kontenkikd{
+  background-color:white;
+	width:100%;
+	height:200px;
+	padding-left:30px;
+  padding-right: 30px;
+  padding-top: 10px;
+	overflow:scroll;
+  text-align: justify;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 22px;
+}
+
+
 /* untuk margin sempit */
 .konten31{
   background-color:white;
 	width:100%;
-	height:530px;
+	height:502px;
 	padding-left:7%;
   padding-right: 7%;
   padding-top: 10px;
@@ -523,7 +541,7 @@ body {
 .konten33{
   background-color:white;
 	width:100%;
-	height:529px;
+	height:503px;
 	padding-left:20px;
   padding-right: 0px;
   padding-top: 10px;
@@ -546,21 +564,23 @@ body {
 .konten4{
   background-color: whitesmoke;
 	width:100%;
-	height:490px;
+	height:471px;
   border-radius: 10px;
 	padding-left:40px;
   padding-right: 20px;
   padding-top: 10px;
   overflow:scroll;  
   text-align: justify;
-	font-family:'Poppins', sans-serif;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 18px;
+  /* line-height: 3px; */
 
 }
 /* 3.3 */
 .konten44{
   background-color: whitesmoke;
 	width:100%;
-	height:530px;
+	height:502px;
   border-radius: 20px;
 	padding-left:20px;
   padding-right: 0px;
@@ -636,8 +656,8 @@ a:hover {
 nav {
   float: left;
   width: 23%;
-  height: 570px; 
-  background: #9ACD32;
+  height: 580px; 
+  background: #3D84A8;
   padding: 20px 10px 20px 30px;
   overflow: auto;
   overflow-x: hidden;
@@ -646,17 +666,17 @@ nav {
 
 
 button.btn.btn-primary.collapsed{
-  background-color: chartreuse;
-  border: chartreuse;
+  background-color: #46CDCF;
+  border: #46CDCF;
 }
 button.btn.btn-primary{
-  background-color:#2E8B57 ;
+  background-color:#48466D;
 }
 
 .dropdown .dropbtn {
-  background-color: #2E8B57; /* warna buttonnya*/
+  background-color: #48466D; /* warna buttonnya*/
   font-family: Georgia, 'Times New Roman', Times, serif;
-  border: 1px solid #00FF7F;
+  border: 1px solid #46CDCF;
   color: white;
   padding: 8px 32px;
   text-align: center;
@@ -668,9 +688,9 @@ button.btn.btn-primary{
 }
 
 .dropdown .dropbutton {
-  background-color: #2E8B57; /* warna buttonnya*/
+  background-color: #48466D; /* warna buttonnya*/
   font-family: Georgia, 'Times New Roman', Times, serif;
-  border: 1px solid #00FF7F;
+  border: 1px solid #46CDCF;
   color: white;
   padding: 8px 32px;
   text-align: center;
@@ -682,17 +702,17 @@ button.btn.btn-primary{
 }
 
 .nav a:hover, .dropdown:hover .dropbtn {
-  background-color: #6b8e23;
+  background-color: #ABEDD8;
 }
 
 .nav a:hover, .dropdown:hover .dropbutton {
-  background-color: #6b8e23;
+  background-color: #ABEDD8;
 }
 
 .dropdown-content {
   display: none;
-  background-color: #2E8B57; /* warna buttonnya*/
-  border: 1px solid #00FF7F;
+  background-color: #48466D; /* warna buttonnya*/
+  border: 1px solid #46CDCF;
   font-size: 12px;
   min-width: 245px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -700,9 +720,9 @@ button.btn.btn-primary{
 }
 
 .dropdown-btn{
-  background-color: #2E8B57; /* warna buttonnya*/
+  background-color: #48466D; /* warna buttonnya*/
   font-family: Georgia, 'Times New Roman', Times, serif;
-  border: 1px solid #00FF7F;
+  border: 1px solid #46CDCF;
   color: white;
   padding: 8px 32px;
   text-align: center;
@@ -715,11 +735,11 @@ button.btn.btn-primary{
 
 .dropdown-btn:hover {
   color: white;
-  background-color: #688e23;
+  background-color: #3D84A8;
 }
 
 .aktif{
-  background-color:  #00FF7F;
+  background-color:  #46CDCF;
   color: white;
 }
 
@@ -738,7 +758,7 @@ button.btn.btn-primary{
 .dropdown-content a {
   float: none;
   color: white;
-  border: 1px solid #00FF7F;
+  border: 1px solid #46CDCF;
   padding: 8px 16px;
   font-size: 12px;
   text-decoration: none;
@@ -748,12 +768,12 @@ button.btn.btn-primary{
 
 .dropdown-content .hvr {
   color: black;
-  background-color: #AFEEEE;
+  background-color: #ABEDD8;
 }
 
 .dropdown-content a:hover {
-  background-color: #AFEEEE;
-  border: 1px solid #00FF7F;
+  background-color: #ABEDD8;
+  border: 1px solid #46CDCF;
   color: black;
 }
 
@@ -796,9 +816,9 @@ li a:hover {
 }
 
 .button-nav .button {
-  background-color: #2E8b57; /* warna buttonnya*/
+  background-color: #48466D;/* warna buttonnya*/
   font-family: Georgia, 'Times New Roman', Times, serif;
-  border: 1px solid #00FF7F;
+  border: 1px solid #46CDCF;
   color: white;
   padding: 10px 32px;
   text-align: center;
@@ -819,7 +839,7 @@ li a:hover {
 }
 
 .lanjut{
-  background-color: #52ff52;
+  background-color: #48466D;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -834,7 +854,7 @@ li a:hover {
   margin-left: 150px;
 }
 
-.lanjut:hover {background-color: #bbfa56}
+.lanjut:hover {background-color: #ABEDD8}
 
 .lanjut:active {
   fround-color: #ffa500;
@@ -877,7 +897,7 @@ nav ul {
   float: right;
   padding: 20px;
   width: 0%;
-  background-color: #90EE90;
+  background-color: #46CDCF;
   height: 480px; 
 }
 .Isi-Kiri{
@@ -889,7 +909,7 @@ nav ul {
   text-align: justify;
   padding: 5px 5px;  /* ini buat yang sisi tepi */
   width: 77%;
-  background-color: #90EE90;
+  background-color: #48466D;
   height: 590px; 
 
 }
@@ -902,7 +922,20 @@ nav ul {
   text-align: justify;
   padding: 5px 5px;  /* ini buat yang sisi tepi */
   width: 77%;
-  background-color: #90EE90;
+  background-color: #48466D;
+  height: 580px; 
+}
+
+.Isi-tengah{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 16px; 
+  font-weight: 500; 
+  line-height: 20px;
+  float: center;
+  text-align: justify;
+  padding: 5px 5px;  /* ini buat yang sisi tepi */
+  width: 77%;
+  background-color: #48466D;
   height: 580px; 
 }
 
@@ -915,7 +948,7 @@ nav ul {
   text-align: justify;
   padding: 5px 5px;  /* ini buat yang sisi tepi */
   width: 77%;
-  background-color: #90EE90;
+  background-color: #46CDCF;
   height: 580px;
   overflow: auto;
 }
@@ -1080,9 +1113,9 @@ th, td {
   width: 100%;
   height: 170px;
   text-align: left;
-  background-color: #90EE90;
+  background-color: #46CDCF
   ;
-  border: 3px dotted #90EE90;
+  border: 3px dotted #42d2d4;
   border-radius: 8px;
   margin-top: 10px;
   padding: 10px;
@@ -1092,7 +1125,7 @@ th, td {
 .tujuan{
   position: relative;
   background: #EEE8AA;
-  border: 3px solid #9ACD32;
+  border: 3px solid #3D84A8;
   border-radius: 8px;
   padding: 20px;
 }
@@ -1100,7 +1133,7 @@ th, td {
 .interaktif1{
   position: relative;
   background: #EEE8AA;
-  border: 3px solid #9ACD32;
+  border: 3px solid #3D84A8;
   border-radius: 8px;
   padding: 20px;
 }
@@ -1119,7 +1152,7 @@ th, td {
   width: 100%;
   height: 170px;
   text-align: left;
-  background-color: #90EE90;
+  background-color: #46CDCF;
   border-radius: 8px;
   margin-top: 10px;
 }
@@ -1149,7 +1182,7 @@ th, td {
   width: 100%;
   height: 190px;
   text-align: left;
-  background-color: #90EE90;
+  background-color: #46CDCF;
   border: 3px dotted red;
   border-radius: 8px;
   margin-top: 10px;
@@ -1182,7 +1215,7 @@ th, td {
   width: 100%;
   height: 200px;
   text-align: left;
-  background-color: #90EE90;
+  background-color: #46CDCF;
   border: 3px dotted red;
   border-radius: 8px;
   margin-top: 10px;
@@ -1209,7 +1242,7 @@ th, td {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 40px;
   text-align-last: center;
-  color: #9ACD32;
+  color: #3D84A8;
   text-align: center;
   background-color: #006400;
   border: 3px solid #006400;
@@ -1237,7 +1270,7 @@ th, td {
   font-size: 22px;
   font-weight: bold;
   text-align-last: left;
-  color: #90EE90;
+  color: #46CDCF;
   text-align: left;
   background-color: #006400;
   border: 3px solid white;
@@ -1253,7 +1286,7 @@ th, td {
   font-size: 22px;
   font-weight: bold;
   text-align-last: left;
-  color: #9ACD32;
+  color: #3D84A8;
   text-align: left;
   background-color: #006400;
   border: 3px solid #006400;
@@ -1269,7 +1302,7 @@ th, td {
   font-size: 22px;
   font-weight: bold;
   text-align-last: left;
-  color: #9ACD32;
+  color: #3D84A8;
   text-align: left;
   background-color: #006400;
   border: 3px solid #006400;
@@ -1346,7 +1379,7 @@ display:none;
 .slideshow-container {
   position: relative;
   background: #EEE8AA;
-  border: 3px solid #9ACD32;
+  border: 3px solid #3D84A8;
   border-radius: 8px;
   padding: 10px;
   margin-top: 20px;
@@ -1378,7 +1411,7 @@ display:none;
   /* float:right; */
   font-family:  Arial, sans-serif;
 	background-color:whitesmoke;
-  border: 3px solid #9ACD32;
+  border: 3px solid #3D84A8;
   border-radius: 20px;
 	width:50%;
   height: 60%;
@@ -1395,9 +1428,28 @@ display:none;
 
 /* 1.1 */
 .mengamati1{
-  font-family:  Arial, sans-serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 18px;
+  line-height: 30px;
+	background-color:white;
+  border: 3px solid #3D84A8;
+  border-radius: 20px;
+	width:99%;
+  height: auto;
+  margin-right: 10px;
+  margin-top: 10px;
+	padding-left:10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  text-align: justify;
+}
+.mengamati1lat{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 18px;
+  line-height: 30px;
 	background-color:whitesmoke;
-  border: 3px solid #9ACD32;
+  border: 3px solid #3D84A8;
   border-radius: 20px;
 	width:99%;
   height: auto;
@@ -1410,10 +1462,13 @@ display:none;
   text-align: justify;
 }
 
+
 .mengamati1text{
-  font-family:  Arial, sans-serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 18px;
+  line-height: 30px;
 	background-color:white;
-  border: 3px solid #9ACD32;
+  border: 3px solid #3D84A8;
   border-radius: 20px;
 	width:99%;
   height: auto;
@@ -1430,7 +1485,7 @@ display:none;
 .mengamati13{
   font-family:  Arial, sans-serif;
 	background-color:whitesmoke;
-  border: 3px solid #9ACD32;
+  border: 3px solid #3D84A8;
   border-radius: 20px;
 	width:60%;
   height: 200px;
@@ -1446,7 +1501,7 @@ display:none;
 .mengamatiwarna{
   font-family:  Arial, sans-serif;
 	background-color:rgb(229, 248, 143);
-  border: 3px solid #9ACD32;
+  border: 3px solid #3D84A8;
   border-radius: 20px;
 	width:100%;
   height: auto;
@@ -1480,7 +1535,7 @@ display:none;
   font-family:  Arial, sans-serif;
 	background-color:white;
 	width:100%;
-  border: 3px solid #9ACD32;
+  border: 3px solid #3D84A8;
   border-radius: 20px;
   height: auto;
   margin-right: 10px;
@@ -1498,7 +1553,7 @@ display:none;
 .mengamati225{
   float:right;
 	background-color:whitesmoke;
-  border: 3px solid #9ACD32;
+  border: 3px solid #3D84A8;
   border-radius: 20px;
 	width:55%;
   height: auto;
@@ -1517,7 +1572,7 @@ display:none;
 .mengamati25{
   float:right;
 	background-color:whitesmoke;
-  border: 3px solid #9ACD32;
+  border: 3px solid #3D84A8;
   border-radius: 20px;
 	width:50%;
   height: 37%;
@@ -1531,7 +1586,7 @@ display:none;
 }
 .mengamati225{
 	background-color:whitesmoke;
-  border: 3px solid #9ACD32;
+  border: 3px solid #3D84A8;
   border-radius: 20px;
 	width:100%;
   height: auto;
@@ -1545,7 +1600,7 @@ display:none;
    float:right;
    font-family:  Arial, sans-serif;
    background-color:whitesmoke;
-   border: 3px solid #9ACD32;
+   border: 3px solid #3D84A8;
    border-radius: 20px;
    width:50%;
    height: 60%;
@@ -1562,7 +1617,7 @@ display:none;
 .mengamati3{
   float:right;
 	background-color:whitesmoke;
-  border: 3px solid #9ACD32;
+  border: 3px solid #3D84A8;
   font-family: Arial, sans-serif;
   border-radius: 20px;
 	width:50%;
@@ -1576,7 +1631,7 @@ display:none;
 .mengamati30{
   float:right;
 	background-color:whitesmoke;
-  border: 3px solid #9ACD32;
+  border: 3px solid #3D84A8;
   font-family: Arial, sans-serif;
   font-size: medium;
   border-radius: 20px;
@@ -1593,20 +1648,22 @@ display:none;
 .mengamatiauto{
   position: relative;
   width: auto;
-  background: #EEE8AA;
-  border: 3px solid #9ACD32;
+  background: #ABEDD8;  
+  border: 3px solid #3D84A8;
   border-radius: 20px;
   padding: 20px;
   height: auto;
   margin-right: 20px;
   text-align: justify;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 18px;
 }
 /* 1.4 */
 .mengamatisudut{
   position: relative;
   width: auto;
   background: #EEE8AA;
-  border: 3px solid #9ACD32;
+  border: 3px solid #3D84A8;
   border-radius: 20px;
   padding: 20px;
   height: auto;
@@ -1617,7 +1674,7 @@ display:none;
 .mengamati{
   position: relative;
   background: #EEE8AA;
-  border: 3px solid #9ACD32;
+  border: 3px solid #3D84A8;
   border-radius: 20px;
   padding: 20px;
   margin-left: 20px;
@@ -1630,7 +1687,7 @@ display:none;
   position: relative;
   font-family: Arial, sans-serif;;
   background: #EEE8AA;
-  border: 3px solid #9ACD32;
+  border: 3px solid #3D84A8;
   border-radius: 20px;
   padding: 10px;
   margin-left: 10px;
@@ -1644,7 +1701,7 @@ display:none;
   position: relative;
   font-family: Arial, sans-serif;
   background: #EEE8AA;
-  border: 3px solid #9ACD32;
+  border: 3px solid #3D84A8;
   border-radius: 20px;
   padding: 10px;
   margin-left: 10px;
@@ -1657,7 +1714,7 @@ display:none;
   position: relative;
   font-family: Arial, sans-serif;;
   background: white;
-  border: 3px solid #9ACD32;
+  border: 3px solid #3D84A8;
   border-radius: 20px;
   padding: 10px;
   margin-left: 10px;
@@ -1670,7 +1727,7 @@ display:none;
   position: relative;
   font-family: Arial, sans-serif;;
   background: #EEE8AA;
-  border: 3px solid #9ACD32;
+  border: 3px solid #3D84A8;
   border-radius: 20px;
   padding: 10px;
   margin-left: 10px;
@@ -1682,7 +1739,7 @@ display:none;
 .menanya{
   position: relative;
   background: #EEE8AA;
-  border: 3px solid #9ACD32;
+  border: 3px solid #3D84A8;
   border-radius: 8px;
   padding: 20px;
   margin-top: 20px;
@@ -1692,7 +1749,7 @@ display:none;
 .menggali{
   position: relative;
   background: #EEE8AA;
-  border: 3px solid #9ACD32;
+  border: 3px solid #3D84A8;
   border-radius: 8px;
   padding: 20px;
   margin-top: 20px;
@@ -1701,7 +1758,7 @@ display:none;
 .memecah{
   position: relative;
   background: #EEE8AA;
-  border: 3px solid #9ACD32;
+  border: 3px solid #3D84A8;
   border-radius: 8px;
   padding: 20px;
   margin-top: 20px;
@@ -1737,7 +1794,7 @@ display:none;
 
 .dot-container {
     text-align: center;
-    background: #9ACD32;
+    background: #3D84A8;
     height: 40px;
 }
 
@@ -1777,7 +1834,7 @@ display:none;
   color:rgb(12, 10, 10);
   height: 30px;
   width: 30px;
-  background-color: rgb(19, 168, 148);
+  background-color: #46CDCF;
   border-radius: 50%;
   display: inline-block;
   text-align: center;

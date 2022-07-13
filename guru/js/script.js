@@ -17,6 +17,10 @@ let kuisnya = document.getElementById('kuis');
 
 let tmp = document.querySelector('.disini');
 tmp.innerHTML = "";
+
+let tmph = document.querySelector('.disinih');
+tmph.innerHTML = "";
+
 kelasnya = document.getElementById('kelas');
 // sekolah = document.getElementById('sekolah');
 let kelasfix = '';
@@ -27,6 +31,15 @@ let cek11 = 0;
 
 
 function mencari() {
+    tmph.innerHTML=`<tr>
+            <th class="ukr1">Nama</td>
+            <th class="ukr3">Kelas</td>
+            <th class="ukr1">Sekolah</td>
+            <th class="ukr3">Skor</td>
+            <th class="ukr2">Hari</td>
+            <th class="ukr2">Waktu</td>
+        </tr>`
+
     datahasil = kuisnya.value;
     // console.log(datahasil);
     var task = firebase.database().ref(datahasil);
@@ -61,28 +74,97 @@ function mencari() {
                             <td class="ukr3">${taskvalue.nilai}</td>
                             <td class="ukr2">${taskvalue.hari}</td>
                             <td class="ukr2">${taskvalue.waktu}</td>
-                            <td class="hps" onclick ="hapus(${taskvalue.id})"><button type="button" class="btn btn-outline-danger">Hapus</button></td>
                         </tr>`;
                 idnya.push(taskvalue.id);
             }
 
-            if (cek11 == 0) {
-                let ssps = document.querySelector('.center');
-                ssps.innerHTML += '';
-                ssps.innerHTML += `<button type="button" class="btn btn-danger deleted"><i class="fas fa-user-minus"></i>&nbsp;&nbsp;Hapus Semua Data</button>`;
-                cek11 += 1;
+            // if (cek11 == 0) {
+            //     let ssps = document.querySelector('.center');
+            //     ssps.innerHTML += '';
+            //     ssps.innerHTML += `<button type="button" class="btn btn-danger deleted"><i class="fas fa-user-minus"></i>&nbsp;&nbsp;Hapus Semua Data</button>`;
+            //     cek11 += 1;
 
-                let klikkkk = document.querySelector('.deleted');
-                klikkkk.addEventListener('click', function () {
-                    hapussemua(idnya);
-                })
-            }
+            //     let klikkkk = document.querySelector('.deleted');
+            //     klikkkk.addEventListener('click', function () {
+            //         hapussemua(idnya);
+            //     })
+            // }
 
         });
     } else {
         alert('Tentukan filter pencarian');
     }
 }
+
+function hapusnilai() {
+
+    tmph.innerHTML=`<tr>
+            <th class="ukr1">Nama</td>
+            <th class="ukr3">Kelas</td>
+            <th class="ukr1">Sekolah</td>
+            <th class="ukr3">Skor</td>
+            <th class="ukr2">Hari</td>
+            <th class="ukr2">Waktu</td>
+            <th class="ukr4">Hapus</td>
+        </tr>`
+
+    datahasil = kuisnya.value;
+    // console.log(datahasil);
+    var task = firebase.database().ref(datahasil);
+
+    tmp.innerHTML = "";
+    if (kelasnya.value == "1") {
+        kelasfix = "IX A";
+    } else if (kelasnya.value == "2") {
+        kelasfix = "IX B";
+    } else if (kelasnya.value == "3") {
+        kelasfix = "IX C";
+    } else if (kelasnya.value == "4") {
+        kelasfix = "IX D";
+    } else if (kelasnya.value == "5") {
+        kelasfix = "IX E";
+    } else if (kelasnya.value == "6") {
+        kelasfix = "IX F";
+    } else if (kelasnya.value == "7") {
+        kelasfix = "IX G";
+    }
+
+    if (kelasfix != '') {
+        task.orderByChild("nama").on("child_added", function (data) {
+            // task.on("child_added", function (data) {
+            var taskvalue = data.val();
+           
+            if (kelasfix == taskvalue.kelas) {
+                tmp.innerHTML += `<tr>
+                            <td class="ukr1">${taskvalue.nama}</td>
+                            <td class="ukr3">${taskvalue.kelas}</td>
+                            <td class="ukr1">${taskvalue.sekolah}</td>
+                            <td class="ukr3">${taskvalue.nilai}</td>
+                            <td class="ukr2">${taskvalue.hari}</td>
+                            <td class="ukr2">${taskvalue.waktu}</td>
+                            <td class="hps" onclick ="hapus(${taskvalue.id})"><button type="button" class="btn btn-outline-danger hps">Hapus</button></td>
+                        </tr>`;
+                idnya.push(taskvalue.id);
+            }
+
+                // if (cek11 == 0) {
+                //     let ssps = document.querySelector('.center');
+                //     ssps.innerHTML += '';
+                //     ssps.innerHTML += `<button type="button" class="btn btn-danger deleted"><i class="fas fa-user-minus"></i>&nbsp;&nbsp;Hapus Semua Data</button>`;
+                //     cek11 += 1;
+
+                //     let klikkkk = document.querySelector('.deleted');
+                //     klikkkk.addEventListener('click', function () {
+                //         hapussemua(idnya);
+                //     })
+                // }
+
+        });
+    } else {
+        alert('Tentukan filter pencarian');
+    }
+}
+
 
 window.onload = function () {
     kelasnya = document.getElementById('kelas');
@@ -133,6 +215,7 @@ function deletesemua(id) {
 
 // download data
 function downloadfile(){
+
 document.querySelector('.download');
 // download.addEventListener('click', function () {
     var data_type = 'data:application/vnd.ms-excel';
@@ -141,6 +224,7 @@ document.querySelector('.download');
 
     var a = document.createElement('a');
     a.href = data_type + ', ' + table_html;
-    a.download = 'exported_table_' + Math.floor((Math.random() * 9999999) + 1000000) + '.xls';
+    a.download = kuisnya.value + kelasfix + '.xls';
     a.click();
+
 }

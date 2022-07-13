@@ -1,4 +1,3 @@
-
 //  interaktif 1.1
 function interaktif1(){
     var D=document.getElementById('D').value;
@@ -422,7 +421,7 @@ document.getElementById("jawaban3").innerHTML = jawaban3;
       jawab1 = document.getElementById('jwb_a');
       jawab1 = `<div class="pembahasan mt-3 mr-3 p-3" style="background-color:red;color:white;">
                           Jawaban Anda salah <br> </div>
-                          <h5>Perhatikan jawaban berikut ini</h5>
+                         
                           <img src="../img/jawaban latihan perbandingan 5.PNG" alt="">
                           <br>                     
                           </div>`;  
@@ -454,9 +453,8 @@ document.getElementById("jawaban3").innerHTML = jawaban3;
         jawab2 = document.getElementById('jwb_b');
         jawab2 = `<div class="pembahasan mt-3 mr-3 p-3" style="background-color:red;color:white;">
                             Jawaban Anda salah <br> </div>
-                            <h5>Perhatikan jawaban berikut ini</h5>
-                            <img src="../img/jawaban latihan perbandingan 6.PNG" alt="">
-                            <img src="../img/jawaban latihan perbandingan 62.PNG" alt="">
+                            <img src="../img/jawaban latihan perbandingan 6.PNG" alt=""><br> 
+                            
                             <br>                     
                             </div>`;  
     }
@@ -486,8 +484,8 @@ document.getElementById("jawaban3").innerHTML = jawaban3;
         jawab3 = document.getElementById('lat1');
         jawab3 = `<div class="pembahasan mt-3 mr-3 p-3" style="background-color:red;color:white;">
                             Jawaban Anda salah <br> </div>
-                            <h5>Perhatikan jawaban berikut ini</h5>
                             <img src="../img/jawaban latihan perbandingan 7.PNG" alt=""> <br> 
+                            <img src="../img/jawaban latihan perbandingan 72.PNG" alt=""> <br> 
                             
 
                             <br>                     
@@ -502,14 +500,14 @@ function sudutdepresi(){
     var jrk=document.getElementById('jrk').value;
     var depresi=document.getElementById('depresi').value;
     var hasiljrk=document.getElementById('hasiljrk').value;
-    var tggF=document.getElementById('tggF').value;
+    var tggiBimo=document.getElementById('tggiBimo').value;
     var jawaban4;
   
   if (jrk==""){
       alert("Jawaban masih ada yang kosong, isi terlebih dahulu!");
       return false;
     }
-  else if(jrk=='30'){
+  else if(jrk=='16,75'||jrk=='16.75'){
       document.getElementById('jrk').style="border: 3px solid green; font-size:15px; text-align:center;"
   }
   else{
@@ -520,7 +518,7 @@ function sudutdepresi(){
     alert("Jawaban masih ada yang kosong, isi terlebih dahulu!");
     return false;
   }
-  else if (depresi=='60'){
+  else if (depresi=='45'){
     document.getElementById('depresi').style="border: 3px solid green; font-size:15px; text-align:center;"
   }
   else{
@@ -528,22 +526,22 @@ function sudutdepresi(){
   }
 
   
-  if (tggF==""){
+  if (tggiBimo==""){
     alert("Jawaban masih ada yang kosong, isi terlebih dahulu!");
     return false;
   }
-  else if (tggF=='1,75'){
-    document.getElementById('tggF').style="border: 3px solid green; font-size:15px; text-align:center;"
+  else if (tggiBimo=='1,75'){
+    document.getElementById('tggiBimo').style="border: 3px solid green; font-size:15px; text-align:center;"
   }
   else{
-    document.getElementById('tggF').style="border: 3px solid red; font-size:15px; text-align:center;"
+    document.getElementById('tggiBimo').style="border: 3px solid red; font-size:15px; text-align:center;"
   }
   
   if (hasiljrk==""){
     alert("Jawaban masih ada yang kosong, isi terlebih dahulu!");
     return false;
   }
-  else if (hasiljrk == "36,5") {
+  else if (hasiljrk == "16,75"||hasiljrk == "16.75") {
     // jawaban = "Incorrect"; document.getElementById("coba1").style.color = "red";
     document.getElementById('hasiljrk').style="border: 3px solid green; font-size:15px; text-align:center;"
     jawaban4 = document.getElementById('hasiljrk');
@@ -560,6 +558,8 @@ function sudutdepresi(){
                         <h5>Perhatikan jawaban berikut ini</h5>
                         <img src="../img/jawaban latihan perbandingan 8.PNG" > <br>
                         <img src="../img/jawaban latihan perbandingan 9.PNG" > <br>
+                        <img src="../img/jawaban latihan perbandingan 10.PNG" > <br>
+                        <img src="../img/jawaban latihan perbandingan 11.PNG" > <br>
                         <br> <br<br>                    
                         </div>`;  
 }
@@ -619,9 +619,7 @@ function no2(){
         jawab5 = document.getElementById('nomer2');
         jawab5 = `<div class="pembahasan mt-3 mr-3 p-3" style="background-color:red;color:white;">
                             Jawaban Anda salah <br> </div>
-                            
                             <img src="../img/jawaban latihan sudut eldep 2.PNG" > 
-                            <img src="../img/jawaban latihan sudut eldep 2gambar.PNG" >
                             <br> <br<br>                    
                             </div>`;  
     }
@@ -682,8 +680,10 @@ function no4(){
     jawab7 = `<div class="pembahasan mt-3 mr-3 p-3" style="background-color:red;color:white;">
                         Jawaban Anda salah <br> </div>
                         <h5>Perhatikan jawaban berikut ini</h5>
+                        <img src="../img/jawaban latihan sudut eldep 4gambar.PNG" >  <br>
                         <img src="../img/jawaban latihan sudut eldep 4.PNG" >  <br>
                         <img src="../img/jawaban latihan sudut eldep 4.2.PNG" >  <br>
+
                         <br> <br<br>                    
                         </div>`;  
 }

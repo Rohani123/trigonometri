@@ -17,21 +17,21 @@ mjx-container {
 
 .bg_nav {
     width: 99%;
-    background-color: #279e09;
+    background-color: #48466D;
 }
 
 .bg_full {
     width: 100%;
     text-align: center;
     padding: 10px 0;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid #48466D;
     color: white;
 }
 
 .bg_soal {
     width: 100%;
     padding: 10px 0;
-    background-color: #d5f893;
+    background-color: #ABEDD8;
     color: black;
 
 }
@@ -51,7 +51,7 @@ mjx-container {
 
 .soal_nav:hover {
     cursor: pointer;
-    background-color: #17bb02;
+    background-color: #46CDCF;
 }
 
 .bg_soal span {
@@ -68,7 +68,7 @@ mjx-container {
 }
 
 .sudah {
-    background-color: #08ca42;
+    background-color: #48466D;
 }
 
 .fontbesar {
@@ -94,8 +94,7 @@ mjx-container {
     font-size: 20px;
     text-align: center;
     width: 80%;
-    background-color: #14ee31;
-    cursor: pointer;
+    background-color: #48466D;
     height: 30px;
     border-radius: 10px;
     /* line-height: 20px; */
@@ -105,7 +104,7 @@ mjx-container {
 }
 
 .selesai:hover {
-    background-color: #13ce4b;
+    background-color: #46CDCF;
 }
 
 .hasil {
@@ -147,7 +146,7 @@ mjx-container {
 }
 
 .hasil a:hover {
-    background-color: rgb(195, 243, 82);
+    background-color: #46CDCF;
 }
 
 .jrk {
@@ -161,7 +160,7 @@ mjx-container {
 }
 
 .no {
-    background-color: #1bd133;
+    background-color: #48466D;
     padding: 10px 0;
     border-radius: 10px 10px 0 0;
     border: 2px solid rgb(255, 255, 255);
@@ -287,7 +286,7 @@ span {
 }
 
 .nav_sebelum:hover {
-    background-color: #6cfa59;
+    background-color: #46CDCF;
 }
 
 .nav_sebelum p {
@@ -295,7 +294,7 @@ span {
 }
 
 .nav_selanjut {
-    background-color: #0dc526;
+    background-color: #48466D;
     width: 24%;
     padding: 2px;
     text-align: center;
@@ -309,7 +308,7 @@ span {
 }
 
 .nav_selanjut:hover {
-    background-color: #6cfa59;
+    background-color: #46CDCF;
 }
 
 .nav_selanjut p {
@@ -359,7 +358,7 @@ span {
 }
 
 .tmbl:hover{
-    background-color: #22f73e;
+    background-color: #46CDCF;
 }
 
 ol {
@@ -429,7 +428,7 @@ label {
     serif;
     color: white;
     padding: 5px 5px;
-    background-color: #3bf722;
+    background-color: #3D84A8;
     border: 2px solid rgb(255, 255, 255);
     margin-top: 5%;
     font-weight: bold;
@@ -455,13 +454,13 @@ label {
 }
 
 .lanjut:hover {
-    background-color: rgb(32, 212, 56);
+    background-color: #46CDCF;
     cursor: pointer;
 }
 
 .t_hasil {
     text-align: center;
-    border: 4px solid #22f746;
+    border: 4px solid #3D84A8;
     border-radius: 5px;
     padding: 5px;
     max-width: 312px;
@@ -505,7 +504,7 @@ h3{
             serif;
         color: white;
         padding: 5px 5px;
-        background-color: #66f722;
+        background-color: #3D84A8;
         border: 2px solid rgb(255, 255, 255);
         margin-top: 40px;
         margin-bottom: 20px;
@@ -519,7 +518,7 @@ h3{
     }
 
     .t_hasil {        
-        border: 5px solid #22f746;
+        border: 5px solid #3D84A8;
         border-radius: 5px;
         padding: 20px;
         max-width: 530px;
@@ -546,7 +545,7 @@ h3{
         margin-left: 0px;
         font-size: 1.6vw;
         box-sizing: border-box;
-        border: 2px solid #3bf722;
+        border: 2px solid #3D84A8;
         min-height: auto;
         /* padding-bottom: 30px; */
     }
@@ -631,7 +630,7 @@ h3{
     }
 
     .lanjut:hover {
-        background-color: #34f722;
+        background-color: #46CDCF;
         cursor: pointer;
     }
 
